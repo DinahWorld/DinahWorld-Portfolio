@@ -4,3 +4,7 @@
 	background-color: #0e182f;
 	color: white;
 }
+.noscroll {
+	position: fixed;
+	overflow-y: scroll;
+}
