@@ -3,24 +3,10 @@ import '../styles/Home.css';
 import { ReactComponent as HomeLogo } from '../assets/homeLogo.svg';
 import { useMousePosition } from './useMousePosition';
 
-let x, y, pos;
-let x0 = 0;
-let y0 = 0;
-
-function Stars() {
-	const position = useMousePosition();
-	x0 = position.x / 50;
-	y0 = position.y / 50;
-	pos = x0 + ' ' + y0 + ' 628 335';
-	console.log(x0);
+function Stars(x0, y0) {
+	let pos = x0 + ' ' + y0 + ' 628 335';
 	return (
-		<svg
-			width='628'
-			height='335'
-			viewBox={pos}
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-		>
+		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<circle cx='21.2301' cy='86.3028' r='0.816743' fill='white' />
 			<circle cx='21.2301' cy='86.3028' r='0.816743' fill='white' />
 			<circle cx='37.5649' cy='207.181' r='0.816743' fill='white' />
@@ -272,22 +258,11 @@ function Stars() {
 		</svg>
 	);
 }
-function Planet() {
-	const position = useMousePosition();
-	x0 = position.x / 100;
-	y0 = position.y / 100;
-	pos = x0 + ' ' + y0 + ' 642 348';
 
+function Planet(x0, y0) {
+	let pos = x0 + ' ' + y0 + ' 642 348';
 	return (
-		<svg
-			width='642'
-			height='348'
-			viewBox={pos}
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-		>
-			<Stars />
-
+		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<path
 				fill-rule='evenodd'
 				clip-rule='evenodd'
@@ -307,24 +282,14 @@ function Planet() {
 					<stop offset='0.729167' stop-color='#C892FF' />
 				</linearGradient>
 			</defs>
-			<Meteor />
 		</svg>
 	);
 }
-function Meteor() {
-	const position = useMousePosition();
-	x0 = position.x / 5;
-	y0 = position.y / 5;
-	pos = x0 + ' ' + y0 + ' 621 355';
 
+function Meteor(x0, y0) {
+	let pos = x0 + ' ' + y0 + ' 621 355';
 	return (
-		<svg
-			width='621'
-			height='355'
-			viewBox={pos}
-			fill='none'
-			xmlns='http://www.w3.org/2000/svg'
-		>
+		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<path
 				fill-rule='evenodd'
 				clip-rule='evenodd'
@@ -381,8 +346,24 @@ function Meteor() {
 		</svg>
 	);
 }
-
+function Svg(x0, y0) {
+	let pos = 0 + ' ' + 0 + ' 621 355';
+	let planet = Planet(x0 / 100, y0 / 100);
+	let stars = Stars(x0 / 20, y0 / 20);
+	let meteor = Meteor(x0 / 10, y0 / 10);
+	return (
+		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
+			{stars}
+			{planet}
+			{meteor}
+		</svg>
+	);
+}
 function Home() {
+	const position = useMousePosition();
+	let x0 = position.x;
+	let y0 = position.y;
+	let svg = Svg(x0, y0);
 	return (
 		<div className='home'>
 			<div className='homeLeftSide'>
@@ -391,9 +372,7 @@ function Home() {
 				</h1>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
-			<div className='homeRightSide'>
-				<Planet />
-			</div>
+			<div className='homeRightSide'>{svg}</div>
 		</div>
 	);
 }
