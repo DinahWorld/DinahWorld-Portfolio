@@ -7,32 +7,34 @@
 	justify-content: center;
 	flex-direction: row;
 }
-.homeTitle {
+.homeLeftSide {
 	position: fixed;
+
+	flex: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-.homeAnimatedLogo {
+.homeRightSide {
 	flex: 50%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-.homeTitle h1 {
+.homeLeftSide h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 4vw;
 }
-.homeTitle p {
+.homeLeftSide p {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 1vw;
 }
 
-.homeAnimatedLogo svg {
+.homeRightSide svg {
 	width: 100%;
 	height: 100%;
 }

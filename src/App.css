@@ -1,7 +1,7 @@
-* {
+body {
+	background-color: #0e182f;
 	padding: 0;
 	margin: 0;
-	background-color: #0e182f;
 	color: white;
 }
 .noscroll {
