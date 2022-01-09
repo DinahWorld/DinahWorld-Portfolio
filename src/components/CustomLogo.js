@@ -284,57 +284,23 @@ function Planet(x0, y0) {
 	);
 }
 
-function Meteor(x0, y0) {
-	let pos = x0 + ' ' + y0 + ' 621 355';
+function Meteor2(x0, y0) {
+	let pos = x0 + ' ' + y0 + ' 10 300';
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<path
 				fill-rule='evenodd'
 				clip-rule='evenodd'
-				d='M505.106 82.4444L620.04 0L521.962 99.9014C521.574 100.36 521.154 100.788 520.705 101.182L520.237 101.659L520.195 101.606C517.631 103.624 514.267 104.611 510.789 104.066C504.154 103.027 499.617 96.8054 500.657 90.1698C501.151 87.012 502.819 84.3295 505.148 82.4971L505.106 82.4444Z'
-				fill='url(#paint0_linear_26_2)'
-			/>
-			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
-				d='M564.719 346.311L609.234 314.38L571.248 353.073C571.098 353.25 570.935 353.416 570.761 353.568L570.58 353.753L570.563 353.733C569.57 354.514 568.267 354.896 566.921 354.685C564.35 354.283 562.593 351.873 562.996 349.303C563.188 348.08 563.834 347.041 564.735 346.331L564.719 346.311Z'
-				fill='url(#paint1_linear_26_2)'
-			/>
-			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
-				d='M3.30672 201.598L77.4021 148.448L14.1739 212.852C13.9236 213.148 13.6523 213.424 13.3626 213.679L13.0612 213.986L13.0344 213.952C11.3815 215.253 9.21278 215.889 6.97074 215.538C2.69292 214.868 -0.231769 210.857 0.438273 206.579C0.757142 204.543 1.83266 202.814 3.33349 201.632L3.30672 201.598Z'
-				fill='url(#paint2_linear_26_2)'
+				d='M2.52209 42.0778L60.2544 0.665131L10.9894 50.8464C10.7944 51.0768 10.5829 51.2919 10.3572 51.4903L10.1224 51.7295L10.1015 51.703C8.81367 52.7166 7.12387 53.2124 5.37696 52.9388C2.04384 52.4167 -0.234962 49.2915 0.28711 45.9583C0.535559 44.3721 1.37356 43.0247 2.54295 42.1043L2.52209 42.0778Z'
+				fill='url(#paint0_linear_18_61)'
 			/>
 			<defs>
 				<linearGradient
-					id='paint0_linear_26_2'
-					x1='513.383'
-					y1='88.723'
-					x2='623.222'
-					y2='-5.34112'
-					gradientUnits='userSpaceOnUse'
-				>
-					<stop offset='0.109375' stop-color='#B6AFFF' />
-					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
-				</linearGradient>
-				<linearGradient
-					id='paint1_linear_26_2'
-					x1='567.925'
-					y1='348.743'
-					x2='610.467'
-					y2='312.311'
-					gradientUnits='userSpaceOnUse'
-				>
-					<stop offset='0.109375' stop-color='#B6AFFF' />
-					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
-				</linearGradient>
-				<linearGradient
-					id='paint2_linear_26_2'
-					x1='8.64259'
-					y1='205.646'
-					x2='79.4538'
-					y2='145.005'
+					id='paint0_linear_18_61'
+					x1='6.6796'
+					y1='45.2316'
+					x2='61.853'
+					y2='-2.01784'
 					gradientUnits='userSpaceOnUse'
 				>
 					<stop offset='0.109375' stop-color='#B6AFFF' />
@@ -344,18 +310,75 @@ function Meteor(x0, y0) {
 		</svg>
 	);
 }
+function Meteor3(x0, y0) {
+	let pos = x0 + ' ' + y0 + ' 350 100';
 
-function CustomLogo() {
-	const position = useMousePosition();
-	let pos = 0 + ' ' + 0 + ' 621 355';
-	let planet = Planet(position.x / 50, position.y / 50);
-	let stars = Stars(position.x / 100, position.y / 100);
-	let meteor = Meteor(position.x / 10, position.y / 10);
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
+			<path
+				fill-rule='evenodd'
+				clip-rule='evenodd'
+				d='M1.9533 25.8323L36.6375 0.952515L7.03999 31.1005C6.92296 31.2388 6.79612 31.3678 6.66072 31.4869L6.51939 31.6308L6.50685 31.6149C5.73312 32.2239 4.71791 32.5217 3.6684 32.3573C1.66594 32.0437 0.296883 30.1661 0.610532 28.1636C0.759796 27.2107 1.26326 26.4012 1.96581 25.8482L1.9533 25.8323Z'
+				fill='url(#paint0_linear_18_62)'
+			/>
+			<defs>
+				<linearGradient
+					id='paint0_linear_18_62'
+					x1='4.45107'
+					y1='27.727'
+					x2='37.598'
+					y2='-0.659357'
+					gradientUnits='userSpaceOnUse'
+				>
+					<stop offset='0.109375' stop-color='#B6AFFF' />
+					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
+				</linearGradient>
+			</defs>
+		</svg>
+	);
+}
+function Meteor1(x0, y0) {
+	let pos = x0 + ' ' + y0 + ' 30 90';
+
+	return (
+		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
+			<path
+				fill-rule='evenodd'
+				clip-rule='evenodd'
+				d='M4.50487 64.2375L94.0567 0L17.6385 77.8394C17.3362 78.1965 17.0086 78.5299 16.6588 78.8373L16.2941 79.2088L16.2618 79.1677C14.2641 80.74 11.6429 81.509 8.93314 81.0846C3.76295 80.2748 0.228175 75.427 1.03799 70.2569C1.42338 67.7964 2.72326 65.7063 4.5372 64.2786L4.50487 64.2375Z'
+				fill='url(#paint0_linear_18_63)'
+			/>
+			<defs>
+				<linearGradient
+					id='paint0_linear_18_63'
+					x1='10.9539'
+					y1='69.1296'
+					x2='96.5365'
+					y2='-4.16159'
+					gradientUnits='userSpaceOnUse'
+				>
+					<stop offset='0.109375' stop-color='#B6AFFF' />
+					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
+				</linearGradient>
+			</defs>
+		</svg>
+	);
+}
+function CustomLogo() {
+	const position = useMousePosition();
+	let pos = 0 + ' ' + 0 + ' ' + window.innerWidth + ' ' + window.innerHeight;
+	let meteor1 = Meteor1(position.x / 10, position.y / 10);
+	let planet = Planet(position.x / 50, position.y / 50);
+	let meteor2 = Meteor2(position.x / 30, position.y / 30);
+	let stars = Stars(position.x / 75, position.y / 75);
+	let meteor3 = Meteor3(position.x / 60, position.y / 60);
+	return (
+		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
+			{meteor3}
 			{stars}
+			{meteor2}
 			{planet}
-			{meteor}
+			{meteor1}
 		</svg>
 	);
 }

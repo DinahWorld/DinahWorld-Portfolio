@@ -8,9 +8,3 @@
 	justify-content: left;
 	flex-direction: row;
 }
-
-.footer svg {
-	font-size: 3vh;
-	margin-bottom: 30px;
-	margin-left: 30px;
-}

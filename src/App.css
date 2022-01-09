@@ -4,7 +4,3 @@ body {
 	margin: 0;
 	color: white;
 }
-.noscroll {
-	position: fixed;
-	overflow-y: scroll;
-}

@@ -4,8 +4,8 @@ import '../styles/Home.css';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import CustomLogo from './CustomLogo';
-import CustomButton from './CustomButton';
-
+import { CustomButton } from './CustomButton';
+import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
 function Home() {
 	return (
 		<div className='home'>
@@ -13,11 +13,10 @@ function Home() {
 				<h1>
 					Hi. I'm Dinath. <br /> A CS Student.
 				</h1>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-				<Stack spacing={2} direction='column'>
-					<CustomButton>Work</CustomButton>
-					<CustomButton>About Me</CustomButton>
-				</Stack>
+				<p>Welcome in my DinahWorld</p>
+				<CustomButton>
+					<ArrowUpwardRoundedIcon />
+				</CustomButton>
 			</div>
 			<div className='homeAnimatedLogo'>
 				<CustomLogo />
