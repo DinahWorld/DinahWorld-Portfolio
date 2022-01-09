@@ -12,7 +12,7 @@ function Home() {
 				<h1>
 					Hi. I'm Dinath. <br /> A CS Student.
 				</h1>
-				<p>Welcome in my DinahWorld</p>
+				<p>Welcome to my DinahWorld</p>
 				<Link to='/AboutMe'>
 					<CustomButton>
 						<ArrowUpwardRoundedIcon />
