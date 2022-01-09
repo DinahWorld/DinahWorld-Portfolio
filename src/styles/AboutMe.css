@@ -1,0 +1,34 @@
+.aboutMe {
+	display: flex;
+	width: 100%;
+	height: 70vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.aboutMeSquare {
+	margin-left: 5vw;
+	margin-right: 50px;
+}
+.aboutMyFace {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(#e0a9b4, #cc96ee);
+	border-radius: 90px;
+	width: 300px;
+	height: 300px;
+}
+.aboutMyFace img {
+}
+
+.aboutMeText {
+	margin-right: 5vw;
+	font-weight: 400;
+}
+.aboutMeText h1 {
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+	font-size: 3vw;
+}

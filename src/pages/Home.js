@@ -1,10 +1,9 @@
 import React from 'react';
 import '../styles/Home.css';
+import { Link } from 'react-router-dom';
 
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
-import CustomLogo from './CustomLogo';
-import { CustomButton } from './CustomButton';
+import CustomLogo from '../components/CustomLogo';
+import { CustomButton } from '../components/CustomButton';
 import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
 function Home() {
 	return (
@@ -14,9 +13,11 @@ function Home() {
 					Hi. I'm Dinath. <br /> A CS Student.
 				</h1>
 				<p>Welcome in my DinahWorld</p>
-				<CustomButton>
-					<ArrowUpwardRoundedIcon />
-				</CustomButton>
+				<Link to='/AboutMe'>
+					<CustomButton>
+						<ArrowUpwardRoundedIcon />
+					</CustomButton>
+				</Link>
 			</div>
 			<div className='homeAnimatedLogo'>
 				<CustomLogo />

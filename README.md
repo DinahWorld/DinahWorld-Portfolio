@@ -1,3 +1,3 @@
 # Welcome to my DinahWorld 🪐
 
-The website is currently on working 🏗️
+The website is under construction 🏗️
