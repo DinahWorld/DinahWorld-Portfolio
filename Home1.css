@@ -9,7 +9,6 @@
 }
 .homeLeftSide {
 	position: fixed;
-
 	flex: 50%;
 	display: flex;
 	align-items: center;

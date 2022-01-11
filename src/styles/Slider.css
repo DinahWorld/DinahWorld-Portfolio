@@ -1,0 +1,28 @@
+.MuiSlider-markLabel {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1vw;
+	color: white;
+	white-space: break-spaces;
+	align-items: center;
+	justify-content: center;
+}
+
+.MuiSlider-track {
+	background: linear-gradient(#e0a9b4, #cc96ee);
+	border: none;
+}
+
+.css-1aznpnh-MuiSlider-root {
+	height: 0.7vw;
+	color: #293757;
+}
+
+.MuiSlider-thumbColorPrimary {
+	background: linear-gradient(#e0a9b4, #cc96ee);
+	width: 2vw;
+	height: 2vw;
+}
+
+.MuiSlider-mark {
+	opacity: 0%;
+}
