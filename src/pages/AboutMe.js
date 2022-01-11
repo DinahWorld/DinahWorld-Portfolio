@@ -18,19 +18,19 @@ import '../styles/Slider.css';
 const marks = [
 	{
 		value: 10,
-		label: 'Lycée Mozart\n      Bac SSI\n\t 2019',
+		label: '\t   |\nLycée Mozart\n      Bac SSI\n\t 2019',
 	},
 	{
 		value: 35,
-		label: 'Univ.Paris VIII\n  Bac + 1 Info\n\t2020',
+		label: '\t   |\nUniv.Paris VIII\n  Bac + 1 Info\n\t2020',
 	},
 	{
 		value: 65,
-		label: 'Univ.Paris VIII\n  Bac + 2 Info\n\t2021',
+		label: '\t   |\nUniv.Paris VIII\n  Bac + 2 Info\n\t2021',
 	},
 	{
 		value: 90,
-		label: 'Univ.Paris VIII\n  Bac + 3 Info\n\t2022',
+		label: '\t   |\nUniv.Paris VIII\n  Bac + 3 Info\n\t2022',
 	},
 ];
 
@@ -88,7 +88,10 @@ function AboutMe() {
 						</AnimatePresence>
 					</div>
 					<div className='aboutMeText'>
-						<h1>I'm Dinath, a CS Student</h1>
+						<h1>
+							I'm <font color='#fdc45c'>Dinath,</font> a CS
+							Student
+						</h1>
 						<p>
 							Lorem ipsum dolor sit amet consectetur, adipisicing
 							elit. Atque, velit,
