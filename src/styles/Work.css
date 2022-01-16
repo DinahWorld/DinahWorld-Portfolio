@@ -58,7 +58,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #f1a695;
 	border-radius: 90px;
 	min-width: 10vw;
 	height: 1.5vw;
@@ -69,4 +68,11 @@
 	padding-bottom: 2 px;
 	font-weight: 700;
 	color: #263352;
+}
+
+.workDate {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	margin-left: 25px;
 }

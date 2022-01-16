@@ -16,6 +16,7 @@ function Work() {
 							projectName={projectItem.projectName}
 							image={projectItem.image}
 							additional={projectItem.additional}
+							date={projectItem.date}
 						/>
 					);
 				})}
