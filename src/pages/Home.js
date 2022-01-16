@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Galaxy from '../components/CustomLogo';
 import { CustomButton } from '../components/CustomButton';
 import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
+import AboutMe from './AboutMe';
 function Home() {
 	return (
 		<div className='container'>
@@ -24,6 +25,7 @@ function Home() {
 					<Galaxy />
 				</div>
 			</div>
+			<AboutMe />
 		</div>
 	);
 }

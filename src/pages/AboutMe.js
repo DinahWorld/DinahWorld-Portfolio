@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
-import {
-	motion,
-	AnimateSharedLayout,
-	AnimatePresence,
-	useAnimation,
-} from 'framer-motion';
+import { motion, AnimatePresence, useAnimation } from 'framer-motion';
 import '../styles/AboutMe.css';
 import faceLycee from '../assets/face_lycee.png';
 import faceBac1 from '../assets/face_bac_0.png';
@@ -13,8 +8,8 @@ import faceBac3 from '../assets/face_bac_2.png';
 import faceDiplome from '../assets/face_bac_3.png';
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
-import '../styles/Slider.css';
-
+//import '../styles/Slider.css';
+import { styled } from '@mui/material/styles';
 const marks = [
 	{
 		value: 10,
@@ -34,15 +29,36 @@ const marks = [
 	},
 ];
 
+const AboutMeSlider = styled(Slider)({
+	'& .MuiSlider-markLabel': {
+		fontFamily: 'Montserrat, sans-serif',
+		fontSize: '1vw',
+		color: 'white',
+		whiteSpace: 'break-spaces',
+		alignItems: 'center',
+		justifyContent: 'center',
+	},
+	'& .MuiSlider-track': {
+		background: 'linear-gradient(#e0a9b4, #cc96ee)',
+		border: 'none',
+	},
+	'& .MuiSlider-rail': {
+		height: '0.7vw',
+		color: '#293757',
+	},
+	'& .MuiSlider-thumb ': {
+		background: 'linear-gradient(#e0a9b4, #cc96ee)',
+		width: '3vw',
+		height: '3vw',
+	},
+	'&.MuiSlider-mark': {
+		opacity: '0%',
+	},
+});
+
 function AboutMe() {
 	const controls = useAnimation();
 	const [openLinks, setOpenLinks] = useState(3);
-	const image = (value) => {
-		controls.start({
-			scale: [1, 1.2, 1],
-			transition: { duration: 0.5 },
-		});
-	};
 	const changeImage = (value) => {
 		if (value >= 0 && value < 10) {
 			setOpenLinks(0);
@@ -106,7 +122,7 @@ function AboutMe() {
 				</div>
 				<div className='aboutMeSlider'>
 					<Box sx={{ width: '80vw' }}>
-						<Slider
+						<AboutMeSlider
 							aria-label='Restricted values'
 							defaultValue={85}
 							marks={marks}

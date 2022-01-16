@@ -114,8 +114,8 @@ function PlanetBottom(x0, y0) {
 					x2='41'
 					y2='357'
 					gradientUnits='userSpaceOnUse'>
-					<stop stop-color='#FEC659' />
-					<stop offset='1' stop-color='#C892FF' />
+					<stop stopColor='#FEC659' />
+					<stop offset='1' stopColor='#C892FF' />
 				</linearGradient>
 			</defs>
 		</svg>
@@ -139,8 +139,8 @@ function PlanetTop(x0, y0) {
 					x2='41'
 					y2='357'
 					gradientUnits='userSpaceOnUse'>
-					<stop stop-color='#FEC659' />
-					<stop offset='1' stop-color='#C892FF' />
+					<stop stopColor='#FEC659' />
+					<stop offset='1' stopColor='#C892FF' />
 				</linearGradient>
 			</defs>
 		</svg>
@@ -151,8 +151,8 @@ function Meteor2(x0, y0) {
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
+				fillRule='evenodd'
+				clipRule='evenodd'
 				d='M2.52209 42.0778L60.2544 0.665131L10.9894 50.8464C10.7944 51.0768 10.5829 51.2919 10.3572 51.4903L10.1224 51.7295L10.1015 51.703C8.81367 52.7166 7.12387 53.2124 5.37696 52.9388C2.04384 52.4167 -0.234962 49.2915 0.28711 45.9583C0.535559 44.3721 1.37356 43.0247 2.54295 42.1043L2.52209 42.0778Z'
 				fill='url(#paint0_linear_18_61)'
 			/>
@@ -164,8 +164,8 @@ function Meteor2(x0, y0) {
 					x2='61.853'
 					y2='-2.01784'
 					gradientUnits='userSpaceOnUse'>
-					<stop offset='0.109375' stop-color='#B6AFFF' />
-					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
+					<stop offset='0.109375' stopColor='#B6AFFF' />
+					<stop offset='1' stopColor='#B6AFFF' stopOpacity='0' />
 				</linearGradient>
 			</defs>
 		</svg>
@@ -177,8 +177,8 @@ function Meteor3(x0, y0) {
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
+				fillRule='evenodd'
+				clipRule='evenodd'
 				d='M1.9533 25.8323L36.6375 0.952515L7.03999 31.1005C6.92296 31.2388 6.79612 31.3678 6.66072 31.4869L6.51939 31.6308L6.50685 31.6149C5.73312 32.2239 4.71791 32.5217 3.6684 32.3573C1.66594 32.0437 0.296883 30.1661 0.610532 28.1636C0.759796 27.2107 1.26326 26.4012 1.96581 25.8482L1.9533 25.8323Z'
 				fill='url(#paint0_linear_18_62)'
 			/>
@@ -190,8 +190,8 @@ function Meteor3(x0, y0) {
 					x2='37.598'
 					y2='-0.659357'
 					gradientUnits='userSpaceOnUse'>
-					<stop offset='0.109375' stop-color='#B6AFFF' />
-					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
+					<stop offset='0.109375' stopColor='#B6AFFF' />
+					<stop offset='1' stopColor='#B6AFFF' stopOpacity='0' />
 				</linearGradient>
 			</defs>
 		</svg>
@@ -203,8 +203,8 @@ function Meteor1(x0, y0) {
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
+				fillRule='evenodd'
+				clipRule='evenodd'
 				d='M4.50487 64.2375L94.0567 0L17.6385 77.8394C17.3362 78.1965 17.0086 78.5299 16.6588 78.8373L16.2941 79.2088L16.2618 79.1677C14.2641 80.74 11.6429 81.509 8.93314 81.0846C3.76295 80.2748 0.228175 75.427 1.03799 70.2569C1.42338 67.7964 2.72326 65.7063 4.5372 64.2786L4.50487 64.2375Z'
 				fill='url(#paint0_linear_18_63)'
 			/>
@@ -216,8 +216,8 @@ function Meteor1(x0, y0) {
 					x2='96.5365'
 					y2='-4.16159'
 					gradientUnits='userSpaceOnUse'>
-					<stop offset='0.109375' stop-color='#B6AFFF' />
-					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
+					<stop offset='0.109375' stopColor='#B6AFFF' />
+					<stop offset='1' stopColor='#B6AFFF' stopOpacity='0' />
 				</linearGradient>
 			</defs>
 		</svg>
