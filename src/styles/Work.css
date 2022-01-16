@@ -8,7 +8,6 @@
 }
 .workPresentation {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	flex-direction: row;
 }
@@ -26,11 +25,48 @@
 }
 .workDescription {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	align-items: left;
 	justify-content: center;
 	background: #263352;
 	border-radius: 90px;
-	width: 40vw;
-	height: 5vw;
-	margin-bottom: 50px;
+	width: 60vw;
+	height: 4vw;
+	font-weight: 400;
+}
+.workDescription p {
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 1vw;
+}
+.workProjectName h2 {
+	margin-bottom: 0px;
+	margin-left: 2vw;
+	font-size: 1vw;
+}
+.work h1 {
+	color: #e0a9b4;
+	font-size: 3vw;
+}
+.workAdditional {
+	display: flex;
+	justify-content: left;
+}
+.workAdditionalItem {
+	margin-top: 10px;
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1a695;
+	border-radius: 90px;
+	min-width: 10vw;
+	height: 1.5vw;
+	font-size: 1vw;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2 px;
+	font-weight: 700;
+	color: #263352;
 }

@@ -5,12 +5,21 @@ import { ProjectList } from '../helpers/ProjectList';
 function Work() {
 	return (
 		<div className='work'>
+			<h1>Project</h1>
+
 			<div className='workProject'>
-				<h1>Project</h1>
+				{ProjectList.map((projectItem, key) => {
+					return (
+						<ProjectItem
+							key={key}
+							text={projectItem.text}
+							projectName={projectItem.projectName}
+							image={projectItem.image}
+							additional={projectItem.additional}
+						/>
+					);
+				})}
 			</div>
-			{ProjectList.map((projectItem, key) => {
-				return <ProjectItem key={key} text={projectItem.text} />;
-			})}
 		</div>
 	);
 }

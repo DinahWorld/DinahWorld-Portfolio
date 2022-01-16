@@ -231,7 +231,7 @@ function Galaxy() {
 	let meteor2 = Meteor2(position.x / 30, position.y / 30);
 	let stars1 = Stars1(position.x / 90, position.y / 90);
 	let planetBot = PlanetBottom(position.x / 100, position.y / 100);
-	let planetTop = PlanetTop(position.x / 100, position.y / 100);
+	let planetTop = PlanetTop(position.x / 90, position.y / 90);
 
 	let meteor3 = Meteor3(position.x / 60, position.y / 60);
 	return (
