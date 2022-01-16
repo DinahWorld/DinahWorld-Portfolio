@@ -6,6 +6,7 @@ import Galaxy from '../components/CustomLogo';
 import { CustomButton } from '../components/CustomButton';
 import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
 import AboutMe from './AboutMe';
+import Work from './Work';
 function Home() {
 	return (
 		<div className='container'>
@@ -26,6 +27,7 @@ function Home() {
 				</div>
 			</div>
 			<AboutMe />
+			<Work />
 		</div>
 	);
 }
