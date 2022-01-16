@@ -1,20 +1,12 @@
 import React from 'react';
 import { useMousePosition } from './useMousePosition';
 
-function Stars(x0, y0) {
+function Stars1(x0, y0) {
 	let pos = x0 + ' ' + y0 + ' 628 335';
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<circle cx='21.2301' cy='86.3028' r='0.816743' fill='white' />
-			<circle cx='21.2301' cy='86.3028' r='0.816743' fill='white' />
-			<circle cx='37.5649' cy='207.181' r='0.816743' fill='white' />
-			<circle cx='37.5649' cy='207.181' r='0.816743' fill='white' />
-			<circle cx='84.936' cy='123.873' r='2.45023' fill='white' />
-			<circle cx='84.936' cy='123.873' r='2.45023' fill='white' />
-			<circle cx='65.3342' cy='83.0358' r='2.45023' fill='white' />
-			<circle cx='65.3342' cy='83.0358' r='2.45023' fill='white' />
-			<circle cx='3.26173' cy='151.642' r='2.45023' fill='white' />
-			<circle cx='3.26173' cy='151.642' r='2.45023' fill='white' />
+
 			<circle
 				cx='191.614'
 				cy='78.4587'
@@ -27,20 +19,6 @@ function Stars(x0, y0) {
 				cy='78.4587'
 				r='0.816743'
 				transform='rotate(-78.9592 191.614 78.4587)'
-				fill='white'
-			/>
-			<circle
-				cx='313.383'
-				cy='85.5754'
-				r='0.816743'
-				transform='rotate(-78.9592 313.383 85.5754)'
-				fill='white'
-			/>
-			<circle
-				cx='313.383'
-				cy='85.5754'
-				r='0.816743'
-				transform='rotate(-78.9592 313.383 85.5754)'
 				fill='white'
 			/>
 			<circle
@@ -58,117 +36,13 @@ function Stars(x0, y0) {
 				fill='white'
 			/>
 			<circle
-				cx='337.705'
-				cy='148.571'
-				r='2.45023'
-				transform='rotate(-78.9592 337.705 148.571)'
-				fill='white'
-			/>
-			<circle
-				cx='337.705'
-				cy='148.571'
-				r='2.45023'
-				transform='rotate(-78.9592 337.705 148.571)'
-				fill='white'
-			/>
-			<circle
-				cx='252.303'
-				cy='108.608'
-				r='2.45023'
-				transform='rotate(-78.9592 252.303 108.608)'
-				fill='white'
-			/>
-			<circle
-				cx='252.303'
-				cy='108.608'
-				r='2.45023'
-				transform='rotate(-78.9592 252.303 108.608)'
-				fill='white'
-			/>
-			<circle
-				cx='414.194'
-				cy='61.2678'
-				r='0.816743'
-				transform='rotate(-62.2212 414.194 61.2678)'
-				fill='white'
-			/>
-			<circle
-				cx='414.194'
-				cy='61.2678'
-				r='0.816743'
-				transform='rotate(-62.2212 414.194 61.2678)'
-				fill='white'
-			/>
-			<circle
 				cx='528.754'
 				cy='103.152'
 				r='0.816743'
 				transform='rotate(-62.2212 528.754 103.152)'
 				fill='white'
 			/>
-			<circle
-				cx='528.754'
-				cy='103.152'
-				r='0.816743'
-				transform='rotate(-62.2212 528.754 103.152)'
-				fill='white'
-			/>
-			<circle
-				cx='477.125'
-				cy='22.4137'
-				r='2.45023'
-				transform='rotate(-62.2212 477.125 22.4137)'
-				fill='white'
-			/>
-			<circle
-				cx='477.125'
-				cy='22.4137'
-				r='2.45023'
-				transform='rotate(-62.2212 477.125 22.4137)'
-				fill='white'
-			/>
-			<circle
-				cx='431.859'
-				cy='20.7239'
-				r='2.45023'
-				transform='rotate(-62.2212 431.859 20.7239)'
-				fill='white'
-			/>
-			<circle
-				cx='431.859'
-				cy='20.7239'
-				r='2.45023'
-				transform='rotate(-62.2212 431.859 20.7239)'
-				fill='white'
-			/>
-			<circle
-				cx='563.224'
-				cy='306.101'
-				r='2.45023'
-				transform='rotate(84.7399 563.224 306.101)'
-				fill='white'
-			/>
-			<circle
-				cx='563.224'
-				cy='306.101'
-				r='2.45023'
-				transform='rotate(84.7399 563.224 306.101)'
-				fill='white'
-			/>
-			<circle
-				cx='597.641'
-				cy='270.124'
-				r='0.816743'
-				transform='rotate(84.7399 597.641 270.124)'
-				fill='white'
-			/>
-			<circle
-				cx='597.641'
-				cy='270.124'
-				r='0.816743'
-				transform='rotate(84.7399 597.641 270.124)'
-				fill='white'
-			/>
+
 			<circle
 				cx='624.586'
 				cy='295.53'
@@ -183,20 +57,7 @@ function Stars(x0, y0) {
 				transform='rotate(84.7399 624.586 295.53)'
 				fill='white'
 			/>
-			<circle
-				cx='605.572'
-				cy='222.643'
-				r='3.26697'
-				transform='rotate(84.7399 605.572 222.643)'
-				fill='white'
-			/>
-			<circle
-				cx='605.572'
-				cy='222.643'
-				r='3.26697'
-				transform='rotate(84.7399 605.572 222.643)'
-				fill='white'
-			/>
+
 			<circle
 				cx='236.627'
 				cy='276.638'
@@ -230,60 +91,61 @@ function Stars(x0, y0) {
 				cy='146.965'
 				r='4.33044'
 				transform='rotate(-131.519 491.98 146.965)'
-				fill='white'
-			/>
-			<circle
-				cx='491.98'
-				cy='146.965'
-				r='4.33044'
-				transform='rotate(-131.519 491.98 146.965)'
-				fill='white'
-			/>
-			<circle
-				cx='344.141'
-				cy='223.869'
-				r='4.33044'
-				transform='rotate(-131.519 344.141 223.869)'
-				fill='white'
-			/>
-			<circle
-				cx='344.141'
-				cy='223.869'
-				r='4.33044'
-				transform='rotate(-131.519 344.141 223.869)'
 				fill='white'
 			/>
 		</svg>
 	);
 }
-
-function Planet(x0, y0) {
-	let pos = x0 + ' ' + y0 + ' 642 348';
+function PlanetBottom(x0, y0) {
+	let pos = -600 + x0 + ' ' + (-350 + y0) + ' 800 800';
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
-			<path
-				fill-rule='evenodd'
-				clip-rule='evenodd'
-				d='M97.6037 239.571H17.9219C8.02389 239.571 0 247.595 0 257.493C0 267.391 8.02391 275.415 17.9219 275.415L346.961 275.415C364.838 275.475 364.822 311.258 346.916 311.258L364.838 311.258H547.896L565.818 311.258C547.913 311.258 547.897 275.48 565.77 275.415H623.424C633.322 275.415 641.346 267.391 641.346 257.493C641.346 247.595 633.322 239.571 623.424 239.571H550.665C550.646 208.193 544.787 177.126 533.421 148.136C522.037 119.099 505.351 92.7145 484.316 70.4902C463.28 48.266 438.308 30.6367 410.824 18.609C383.34 6.58135 353.883 0.390786 324.134 0.390787C294.386 0.390788 264.929 6.58136 237.445 18.609C209.961 30.6367 184.988 48.266 163.953 70.4902C142.918 92.7145 126.232 119.099 114.847 148.136C103.482 177.126 97.6229 208.193 97.6037 239.571ZM235.544 311.258C225.646 311.258 217.622 319.282 217.622 329.18C217.622 339.078 225.646 347.102 235.544 347.102H602.942C612.84 347.102 620.864 339.078 620.864 329.18C620.864 319.282 612.84 311.258 602.942 311.258H235.544Z'
-				fill='url(#paint0_linear_18_59)'
+			<circle
+				cx='178.5'
+				cy='178.5'
+				r='178.5'
+				fill='url(#paint0_linear_96_49)'
 			/>
 			<defs>
 				<linearGradient
-					id='paint0_linear_18_59'
-					x1='320.673'
-					y1='0.390778'
-					x2='320.673'
-					y2='347.102'
-					gradientUnits='userSpaceOnUse'
-				>
+					id='paint0_linear_96_49'
+					x1='357'
+					y1='-99.5'
+					x2='41'
+					y2='357'
+					gradientUnits='userSpaceOnUse'>
 					<stop stop-color='#FEC659' />
-					<stop offset='0.729167' stop-color='#C892FF' />
+					<stop offset='1' stop-color='#C892FF' />
 				</linearGradient>
 			</defs>
 		</svg>
 	);
 }
-
+function PlanetTop(x0, y0) {
+	let pos = 300 + x0 + ' ' + (-300 + y0) + ' 2000 2000';
+	return (
+		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
+			<circle
+				cx='178.5'
+				cy='178.5'
+				r='178.5'
+				fill='url(#paint0_linear_96_49)'
+			/>
+			<defs>
+				<linearGradient
+					id='paint0_linear_96_49'
+					x1='357'
+					y1='-99.5'
+					x2='41'
+					y2='357'
+					gradientUnits='userSpaceOnUse'>
+					<stop stop-color='#FEC659' />
+					<stop offset='1' stop-color='#C892FF' />
+				</linearGradient>
+			</defs>
+		</svg>
+	);
+}
 function Meteor2(x0, y0) {
 	let pos = x0 + ' ' + y0 + ' 10 300';
 	return (
@@ -301,8 +163,7 @@ function Meteor2(x0, y0) {
 					y1='45.2316'
 					x2='61.853'
 					y2='-2.01784'
-					gradientUnits='userSpaceOnUse'
-				>
+					gradientUnits='userSpaceOnUse'>
 					<stop offset='0.109375' stop-color='#B6AFFF' />
 					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
 				</linearGradient>
@@ -311,7 +172,7 @@ function Meteor2(x0, y0) {
 	);
 }
 function Meteor3(x0, y0) {
-	let pos = x0 + ' ' + y0 + ' 350 100';
+	let pos = -60 + x0 + ' ' + (-30 + y0) + ' 350 100';
 
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -328,8 +189,7 @@ function Meteor3(x0, y0) {
 					y1='27.727'
 					x2='37.598'
 					y2='-0.659357'
-					gradientUnits='userSpaceOnUse'
-				>
+					gradientUnits='userSpaceOnUse'>
 					<stop offset='0.109375' stop-color='#B6AFFF' />
 					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
 				</linearGradient>
@@ -355,8 +215,7 @@ function Meteor1(x0, y0) {
 					y1='69.1296'
 					x2='96.5365'
 					y2='-4.16159'
-					gradientUnits='userSpaceOnUse'
-				>
+					gradientUnits='userSpaceOnUse'>
 					<stop offset='0.109375' stop-color='#B6AFFF' />
 					<stop offset='1' stop-color='#B6AFFF' stop-opacity='0' />
 				</linearGradient>
@@ -364,23 +223,27 @@ function Meteor1(x0, y0) {
 		</svg>
 	);
 }
-function CustomLogo() {
+
+function Galaxy() {
 	const position = useMousePosition();
 	let pos = 0 + ' ' + 0 + ' ' + window.innerWidth + ' ' + window.innerHeight;
-	let meteor1 = Meteor1(position.x / 10, position.y / 10);
-	let planet = Planet(position.x / 50, position.y / 50);
+	let meteor1 = Meteor1(position.x / 30, position.y / 30);
 	let meteor2 = Meteor2(position.x / 30, position.y / 30);
-	let stars = Stars(position.x / 75, position.y / 75);
+	let stars1 = Stars1(position.x / 90, position.y / 90);
+	let planetBot = PlanetBottom(position.x / 100, position.y / 100);
+	let planetTop = PlanetTop(position.x / 100, position.y / 100);
+
 	let meteor3 = Meteor3(position.x / 60, position.y / 60);
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			{meteor3}
-			{stars}
+			{stars1}
 			{meteor2}
-			{planet}
+			{planetBot}
+			{planetTop}
 			{meteor1}
 		</svg>
 	);
 }
 
-export default CustomLogo;
+export default Galaxy;

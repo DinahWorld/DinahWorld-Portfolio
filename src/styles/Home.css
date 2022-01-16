@@ -1,20 +1,29 @@
-.home {
-	position: fixed;
-	width: 100%;
+.container {
+	width: 100vw;
 	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.home {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
 }
 .homeTitle {
-	position: fixed;
+	z-index: 9;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 .homeAnimatedLogo {
+	position: absolute;
 	flex: 50%;
 	height: 100%;
 	display: flex;
