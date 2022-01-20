@@ -1,21 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { PersonnalColor } from '../helpers/Color';
 
-const colors = [
-	'#C892FF',
-	'#FFAFAF',
-	'#B9B2FF',
-	'#D7CAF2',
-	'#DC96EE',
-	'#EE96B0',
-	'#FDAFFF',
-	'#FF92CD',
-	'#FFC092',
-	'#FFC7AF',
-];
 function ExperienceItem({ skills }) {
-	let randomNumber = Math.floor(Math.random() * colors.length);
-	let randomColor = colors[randomNumber];
+	let randomNumber = Math.floor(Math.random() * PersonnalColor.length);
+	let randomColor = PersonnalColor[randomNumber];
 
 	return (
 		<motion.div

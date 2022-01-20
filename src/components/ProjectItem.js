@@ -34,6 +34,7 @@ function AdditionalItem({ add }) {
 function ProjectItem({ text, projectName, image, additional, date }) {
 	const [showProject, setShowProject] = useState(false);
 	const [lastYPos, setLastYPos] = useState(0);
+
 	useEffect(() => {
 		function handleScroll() {
 			const yPos = window.scrollY;

@@ -38,13 +38,20 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+
 	font-weight: 400;
+	background-color: #263352;
+	border-radius: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
-.aboutMeText h1 {
-	padding: 0;
-	margin: 0;
+.aboutMeTitle {
 	font-weight: 500;
-	font-size: 50px;
+	font-size: 40px;
+}
+.aboutMeText p {
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .aboutMeSlider {

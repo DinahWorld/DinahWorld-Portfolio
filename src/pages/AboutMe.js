@@ -162,9 +162,9 @@ function AboutMe() {
 					</AnimatePresence>
 				</div>
 				<div className='aboutMeText'>
-					<h1>
+					<div className='aboutMeTitle'>
 						I'm <font color='#fdc45c'>Dinath,</font> a CS Student
-					</h1>
+					</div>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing
 						elit. Atque, velit,
@@ -173,7 +173,17 @@ function AboutMe() {
 						earum provident quidem dolores itaque debitis,
 						<br />
 						<br /> sapiente tenetur quaerat ullam id nemo
-						asperiores.
+						asperiores. Lorem ipsum dolor sit amet consectetur,
+						adipisicing elit. Minus, fuga architecto sequi sint ad,
+						alias harum numquam aspernatur quas ipsum magni amet hic
+						aut nihil quam mollitia est consequatur libero.
+						<br />
+						<br />
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Beatae expedita itaque autem architecto quae repudiandae
+						temporibus libero accusantium hic tenetur quaerat
+						reprehenderit perspiciatis corporis, consequuntur
+						asperiores. Explicabo laboriosam consectetur ipsa!
 					</p>
 					<CustomButton>
 						<FileUploadRoundedIcon />
