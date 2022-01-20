@@ -50,7 +50,7 @@
 }
 .aboutWorld {
 	position: absolute;
-	width: 300px;
+	width: 40vw;
 	left: -100px;
 	top: 750px;
 }
@@ -68,6 +68,9 @@
 	}
 	.aboutMeText h1 {
 		font-size: 30px;
+	}
+	.aboutMeText {
+		text-align: center;
 	}
 	.aboutMeSquare {
 		margin-left: 0px;

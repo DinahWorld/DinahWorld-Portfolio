@@ -37,6 +37,7 @@
 	height: 3vw;
 }
 .FieldExpBox h3 {
+	text-align: center;
 	font-weight: 600;
 	font-size: 13px;
 	margin-top: 10px;
@@ -49,6 +50,7 @@
 	.FieldExpResume {
 		align-items: center;
 		margin-right: 20px;
+		text-align: center;
 	}
 
 	.FieldExp {
@@ -69,7 +71,6 @@
 	.FieldExpBox h3 {
 		font-size: 8px;
 	}
-
 	.FieldExpList {
 		width: 100%;
 	}
