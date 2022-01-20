@@ -131,6 +131,34 @@ function AboutMe() {
 								/>
 							</div>
 						</motion.div>
+						<motion.div
+							className='aboutMeSlider'
+							initial='hidden'
+							whileInView='visible'
+							viewport={{ once: true }}
+							transition={{ duration: 0.5 }}
+							variants={{
+								visible: { opacity: 1, scale: 1 },
+								hidden: { opacity: 0, scale: 0 },
+							}}>
+							<Box
+								sx={{
+									marginLeft: '10px',
+									marginRight: '10px',
+									width: '500px',
+
+									['@media (max-width:820px)']: {
+										width: '350px',
+									},
+								}}>
+								<AboutMeSlider
+									aria-label='Restricted values'
+									defaultValue={85}
+									marks={marks}
+									getAriaValueText={changeImage}
+								/>
+							</Box>
+						</motion.div>
 					</AnimatePresence>
 				</div>
 				<div className='aboutMeText'>
@@ -153,36 +181,7 @@ function AboutMe() {
 					</CustomButton>
 				</div>
 			</motion.div>
-			<motion.div
-				className='aboutMeSlider'
-				initial='hidden'
-				whileInView='visible'
-				viewport={{ once: true }}
-				transition={{ duration: 0.5 }}
-				variants={{
-					visible: { opacity: 1, scale: 1 },
-					hidden: { opacity: 0, scale: 0 },
-				}}>
-				<Box
-					sx={{
-						marginLeft: '10px',
-						marginRight: '10px',
-						width: '1000px',
-						['@media (max-width:1050px)']: {
-							width: '800px',
-						},
-						['@media (max-width:820px)']: {
-							width: '350px',
-						},
-					}}>
-					<AboutMeSlider
-						aria-label='Restricted values'
-						defaultValue={85}
-						marks={marks}
-						getAriaValueText={changeImage}
-					/>
-				</Box>
-			</motion.div>
+
 			<div className='aboutWorld'>
 				<World />
 			</div>
