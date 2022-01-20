@@ -329,7 +329,13 @@ function Meteor1(x0, y0) {
 function Galaxy() {
 	const position = useMousePosition();
 	let pos =
-		0 + ' ' + 0 + ' ' + window.screen.width + ' ' + window.screen.height;
+		0 +
+		' ' +
+		0 +
+		' ' +
+		window.screen.availWidth +
+		' ' +
+		window.screen.availHeight;
 	let meteor1 = Meteor1(position.x / 30, position.y / 30);
 	let meteor2 = Meteor2(position.x / 30, position.y / 30);
 	let stars1 = Stars1(position.x / 90, position.y / 90);
