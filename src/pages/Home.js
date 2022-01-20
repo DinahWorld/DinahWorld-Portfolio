@@ -17,11 +17,6 @@ function Home() {
 						Hi. I'm Dinath. <br /> A CS Student.
 					</h1>
 					<p>Welcome to my DinahWorld</p>
-					<Link to='/AboutMe'>
-						<CustomButton>
-							<ArrowUpwardRoundedIcon />
-						</CustomButton>
-					</Link>
 				</div>
 				<motion.div
 					className='homeAnimatedLogo'
