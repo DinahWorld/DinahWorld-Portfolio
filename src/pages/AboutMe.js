@@ -139,7 +139,16 @@ function AboutMe() {
 					</CustomButton>
 				</div>
 			</motion.div>
-			<div className='aboutMeSlider'>
+			<motion.div
+				className='aboutMeSlider'
+				initial='hidden'
+				whileInView='visible'
+				viewport={{ once: true }}
+				transition={{ duration: 0.5 }}
+				variants={{
+					visible: { opacity: 1, scale: 1 },
+					hidden: { opacity: 0, scale: 0 },
+				}}>
 				<Box sx={{ width: '70vw' }}>
 					<AboutMeSlider
 						aria-label='Restricted values'
@@ -148,7 +157,7 @@ function AboutMe() {
 						getAriaValueText={changeImage}
 					/>
 				</Box>
-			</div>
+			</motion.div>
 			<div className='aboutWorld'>
 				<World />
 			</div>

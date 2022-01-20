@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import AboutMe from './pages/AboutMe';
 import Work from './pages/Work';
 import Navbar from './components/Navbar';
+import FieldOfExp from './pages/FieldOfExp';
 function App() {
 	return (
 		<div className='App'>

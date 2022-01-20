@@ -1,0 +1,43 @@
+.FieldExp {
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 100px;
+}
+.FieldExpList {
+	display: flex;
+	flex-direction: column;
+}
+.FieldExpResume {
+	display: flex;
+	flex-direction: column;
+	margin-right: 20px;
+}
+.FieldExpLine {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-bottom: 23px;
+}
+
+.FieldExpBox {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 3vw;
+	margin-left: 10px;
+	min-width: 100px;
+	margin-right: 10px;
+	height: 3vw;
+}
+.FieldExpBox h3 {
+	font-weight: 600;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+}

@@ -7,6 +7,7 @@ import { CustomButton } from '../components/CustomButton';
 import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
 import AboutMe from './AboutMe';
 import Work from './Work';
+import FieldOfExp from './FieldOfExp';
 function Home() {
 	return (
 		<div className='container'>
@@ -36,6 +37,7 @@ function Home() {
 				</motion.div>
 			</div>
 			<AboutMe />
+			<FieldOfExp />
 			<Work />
 		</div>
 	);
