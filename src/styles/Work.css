@@ -1,10 +1,12 @@
 .work {
 	position: relative;
 	width: 100%;
-	height: 100vh;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+}
+.workProject {
+	z-index: 1;
 }
 .workPresentation {
 	display: flex;
@@ -79,4 +81,17 @@
 .workDate {
 	font-size: 0.7vw;
 	font-weight: 700;
+}
+
+.workWorld {
+	position: absolute;
+	bottom: -100px;
+	right: 10px;
+	width: 200px;
+}
+.workMiniWorld {
+	position: absolute;
+	bottom: 35px;
+	right: 230px;
+	width: 50px;
 }

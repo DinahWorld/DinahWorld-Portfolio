@@ -8,14 +8,12 @@ import '../styles/Footer.css';
 function Footer() {
 	return (
 		<div className='footer'>
-			<div className='footerIcons'>
-				<CustomButtonFooter1>
-					<GitHubIcon />
-				</CustomButtonFooter1>
-				<CustomButtonFooter2>
-					<LinkedInIcon />
-				</CustomButtonFooter2>
-			</div>
+			<CustomButtonFooter1>
+				<GitHubIcon />
+			</CustomButtonFooter1>
+			<CustomButtonFooter2>
+				<LinkedInIcon />
+			</CustomButtonFooter2>
 		</div>
 	);
 }
