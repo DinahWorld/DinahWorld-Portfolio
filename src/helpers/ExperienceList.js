@@ -14,14 +14,11 @@ export const SkillList2 = [
 	'Windows',
 	'Android Studio',
 	'Git',
-	'HTML',
-	'CSS',
 	'Photoshop',
 ];
 export const SkillList4 = [
 	'Communication',
 	'Présentations',
-	'Résolution de problème',
 	'LeaderShip',
 	'Enseignement',
 ];

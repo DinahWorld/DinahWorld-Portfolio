@@ -1,10 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
-import { Link } from 'react-router-dom';
-import { motion, AnimatePresence, useAnimation } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Galaxy from '../components/CustomLogo';
-import { CustomButton } from '../components/CustomButton';
-import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
 import AboutMe from './AboutMe';
 import Work from './Work';
 import FieldOfExp from './FieldOfExp';

@@ -11,9 +11,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: row;
 }
 .aboutMeSquare {
-	margin-left: 5vw;
+	z-index: 1;
+	display: flex;
+	margin-left: 50px;
 	margin-right: 50px;
 }
 .aboutMyFace {
@@ -61,4 +64,17 @@
 	right: 0px;
 	top: 9px;
 	border-radius: 0px;
+}
+
+@media screen and (max-width: 735px) {
+	.aboutMeResume {
+		flex-direction: column;
+	}
+	.aboutMeText h1 {
+		font-size: 30px;
+	}
+	.aboutMeSquare {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 }
