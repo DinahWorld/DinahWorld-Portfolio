@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import { Link } from 'react-router-dom';
-
+import { motion, AnimatePresence, useAnimation } from 'framer-motion';
 import Galaxy from '../components/CustomLogo';
 import { CustomButton } from '../components/CustomButton';
 import ArrowUpwardRoundedIcon from '@mui/icons-material/ArrowUpwardRounded';
@@ -22,9 +22,18 @@ function Home() {
 						</CustomButton>
 					</Link>
 				</div>
-				<div className='homeAnimatedLogo'>
+				<motion.div
+					className='homeAnimatedLogo'
+					initial='hidden'
+					whileInView='visible'
+					viewport={{ once: true }}
+					transition={{ duration: 0.5 }}
+					variants={{
+						visible: { opacity: 1, scale: 1 },
+						hidden: { opacity: 0, scale: 0 },
+					}}>
 					<Galaxy />
-				</div>
+				</motion.div>
 			</div>
 			<AboutMe />
 			<Work />

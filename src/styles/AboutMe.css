@@ -28,7 +28,10 @@
 }
 
 .aboutMeText {
+	display: flex;
 	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	font-weight: 400;
 }
 .aboutMeText h1 {
@@ -40,4 +43,23 @@
 
 .aboutMeSlider {
 	margin-top: 50px;
+}
+.aboutWorld {
+	position: absolute;
+	display: flex;
+	height: 357px;
+	width: 357px;
+	left: -38px;
+	top: 759px;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	flex-direction: row;
+}
+
+.aboutMeteor {
+	position: absolute;
+	right: 0px;
+	top: 9px;
+	border-radius: 0px;
 }

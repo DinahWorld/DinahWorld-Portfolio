@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+
 function AdditionalItem({ add }) {
-	const color = new Array(4);
+	const color = new Array(19);
 	color['C'] = '#96A9EE';
 	color['JavaScript'] = '#F1A695';
 	color['ExpressJS'] = '#FFDEAD';
@@ -31,28 +32,39 @@ function AdditionalItem({ add }) {
 }
 
 function ProjectItem({ text, projectName, image, additional, date }) {
-	const showProject = true;
-	const [lastYPos, setLastYPos] = useState();
+	const [showProject, setShowProject] = useState(false);
+	const [lastYPos, setLastYPos] = useState(0);
 	useEffect(() => {
 		function handleScroll() {
-			console.log('scrolled');
+			const yPos = window.scrollY;
+			const isScrollingUp = yPos < lastYPos;
+			setShowProject(isScrollingUp);
+			setLastYPos(yPos);
 		}
+
 		window.addEventListener('scroll', handleScroll, false);
 
 		return () => {
 			window.removeEventListener('scroll', handleScroll, false);
 		};
 	}, [lastYPos]);
+
 	return (
 		<motion.div
 			className='workPresentation'
-			animate={{ opacity: 1 }}
-			initial={{ opacity: showProject ? 0 : 1 }}>
+			initial='hidden'
+			whileInView='visible'
+			viewport={{ once: true }}
+			transition={{ duration: 0.5 }}
+			variants={{
+				visible: { opacity: 1, scale: 1 },
+				hidden: { opacity: 0, scale: 0 },
+			}}>
 			<div
 				className='workSquare'
 				style={{
 					backgroundImage: `url(${image})`,
-					backgroundSize: '64px',
+					backgroundSize: 'cover',
 				}}></div>
 			<div className='workInfo'>
 				<div className='workProjectName'>
@@ -66,7 +78,6 @@ function ProjectItem({ text, projectName, image, additional, date }) {
 						return <AdditionalItem key={key} add={add} />;
 					})}
 				</div>
-				<div className='workDate'>Date : {date}</div>
 			</div>
 		</motion.div>
 	);

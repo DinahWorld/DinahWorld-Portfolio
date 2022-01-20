@@ -1,12 +1,12 @@
-import icon2048 from '../assets/projectIcon/icon2048.png';
-import iconCadenas from '../assets/projectIcon/iconCadenas.png';
-import iconDinaTouch from '../assets/projectIcon/iconFinger.png';
-import iconFolio from '../assets/projectIcon/iconFolio.png';
-import iconMetro from '../assets/projectIcon/iconMetro.png';
-import iconTrad from '../assets/projectIcon/iconTrad.png';
-import iconUselessDG from '../assets/projectIcon/iconUselessDG.png';
-import iconVideo from '../assets/projectIcon/iconVideo.png';
-import iconFight from '../assets/projectIcon/iconFight.png';
+import icon2048 from '../assets/projectIcon/icon2048.svg';
+import iconCadenas from '../assets/projectIcon/iconCadenas.svg';
+import iconDinaTouch from '../assets/projectIcon/iconFinger.svg';
+import iconFolio from '../assets/projectIcon/iconFolio.svg';
+import iconMetro from '../assets/projectIcon/iconMetro.svg';
+import iconTrad from '../assets/projectIcon/iconTrad.svg';
+import iconUselessDG from '../assets/projectIcon/iconUselessDG.svg';
+import iconVideo from '../assets/projectIcon/iconVideo.svg';
+import iconFight from '../assets/projectIcon/iconFight.svg';
 
 export const ProjectList = [
 	{

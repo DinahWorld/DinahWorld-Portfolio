@@ -39,11 +39,17 @@
 	margin-right: 30px;
 	font-size: 1vw;
 }
-.workProjectName h2 {
-	margin-bottom: 0px;
+.workProjectName {
+	display: flex;
 	margin-left: 2vw;
+	flex-direction: row;
+	align-items: center;
+	justify-content: left;
+}
+.workProjectName h2 {
 	font-size: 1vw;
 }
+
 .work h1 {
 	color: #e0a9b4;
 	font-size: 3vw;
@@ -71,8 +77,6 @@
 }
 
 .workDate {
-	display: flex;
-	align-items: center;
-	justify-content: left;
-	margin-left: 25px;
+	font-size: 0.7vw;
+	font-weight: 700;
 }

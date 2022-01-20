@@ -8,8 +8,12 @@ import faceBac3 from '../assets/face_bac_2.png';
 import faceDiplome from '../assets/face_bac_3.png';
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
-//import '../styles/Slider.css';
 import { styled } from '@mui/material/styles';
+import { ReactComponent as World } from '../assets/World.svg';
+import { ReactComponent as Meteor } from '../assets/Meteor.svg';
+import { CustomButtonAboutMe as CustomButton } from '../components/CustomButton';
+import FileUploadRoundedIcon from '@mui/icons-material/FileUploadRounded';
+
 const marks = [
 	{
 		value: 10,
@@ -41,6 +45,7 @@ const AboutMeSlider = styled(Slider)({
 	'& .MuiSlider-track': {
 		background: 'linear-gradient(#e0a9b4, #cc96ee)',
 		border: 'none',
+		height: '0.7vw',
 	},
 	'& .MuiSlider-rail': {
 		height: '0.7vw',
@@ -78,58 +83,74 @@ function AboutMe() {
 		transition: { duration: 0.5 },
 	});
 	return (
-		<div>
-			<div className='aboutMe'>
-				<div className='aboutMeResume'>
-					<div className='aboutMeSquare'>
-						<AnimatePresence>
-							<motion.div animate={controls}>
-								<div className='aboutMyFace'>
-									<motion.img
-										animate={controls}
-										src={
-											openLinks === 0
-												? faceLycee
-												: openLinks === 1
-												? faceBac1
-												: openLinks === 2
-												? faceBac2
-												: openLinks === 3
-												? faceBac3
-												: faceDiplome
-										}
-									/>
-								</div>
-							</motion.div>
-						</AnimatePresence>
-					</div>
-					<div className='aboutMeText'>
-						<h1>
-							I'm <font color='#fdc45c'>Dinath,</font> a CS
-							Student
-						</h1>
-						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing
-							elit. Atque, velit,
-							<br /> corrupti reprehenderit doloremque ducimus
-							iusto laudantium quisquam <br />
-							earum provident quidem dolores itaque debitis,
-							<br />
-							<br /> sapiente tenetur quaerat ullam id nemo
-							asperiores.
-						</p>
-					</div>
+		<div className='aboutMe'>
+			<div className='aboutMeteor'>
+				<Meteor />
+			</div>
+			<motion.div
+				className='aboutMeResume'
+				initial='hidden'
+				whileInView='visible'
+				viewport={{ once: true }}
+				transition={{ duration: 0.5 }}
+				variants={{
+					visible: { opacity: 1, scale: 1 },
+					hidden: { opacity: 0, scale: 0 },
+				}}>
+				<div className='aboutMeSquare'>
+					<AnimatePresence>
+						<motion.div animate={controls}>
+							<div className='aboutMyFace'>
+								<motion.img
+									animate={controls}
+									src={
+										openLinks === 0
+											? faceLycee
+											: openLinks === 1
+											? faceBac1
+											: openLinks === 2
+											? faceBac2
+											: openLinks === 3
+											? faceBac3
+											: faceDiplome
+									}
+								/>
+							</div>
+						</motion.div>
+					</AnimatePresence>
 				</div>
-				<div className='aboutMeSlider'>
-					<Box sx={{ width: '80vw' }}>
-						<AboutMeSlider
-							aria-label='Restricted values'
-							defaultValue={85}
-							marks={marks}
-							getAriaValueText={changeImage}
-						/>
-					</Box>
+				<div className='aboutMeText'>
+					<h1>
+						I'm <font color='#fdc45c'>Dinath,</font> a CS Student
+					</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing
+						elit. Atque, velit,
+						<br /> corrupti reprehenderit doloremque ducimus iusto
+						laudantium quisquam <br />
+						earum provident quidem dolores itaque debitis,
+						<br />
+						<br /> sapiente tenetur quaerat ullam id nemo
+						asperiores.
+					</p>
+					<CustomButton>
+						<FileUploadRoundedIcon />
+						CV
+					</CustomButton>
 				</div>
+			</motion.div>
+			<div className='aboutMeSlider'>
+				<Box sx={{ width: '70vw' }}>
+					<AboutMeSlider
+						aria-label='Restricted values'
+						defaultValue={85}
+						marks={marks}
+						getAriaValueText={changeImage}
+					/>
+				</Box>
+			</div>
+			<div className='aboutWorld'>
+				<World />
 			</div>
 		</div>
 	);
