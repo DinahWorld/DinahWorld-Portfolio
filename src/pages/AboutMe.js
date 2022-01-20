@@ -29,32 +29,45 @@ const marks = [
 	},
 	{
 		value: 90,
-		label: '\t   |\nUniv.Paris VIII\n  Bac + 3 Info\n\t2022',
+		label: '‍🎓',
 	},
 ];
 
 const AboutMeSlider = styled(Slider)({
 	'& .MuiSlider-markLabel': {
 		fontFamily: 'Montserrat, sans-serif',
-		fontSize: '1vw',
+		fontSize: '15px',
 		color: 'white',
 		whiteSpace: 'break-spaces',
 		alignItems: 'center',
 		justifyContent: 'center',
+		['@media (max-width:820px)']: {
+			fontSize: '10px',
+		},
 	},
 	'& .MuiSlider-track': {
 		background: 'linear-gradient(#e0a9b4, #cc96ee)',
 		border: 'none',
-		height: '0.7vw',
+		height: '15px',
+		['@media (max-width:820px)']: {
+			height: '10px',
+		},
 	},
 	'& .MuiSlider-rail': {
-		height: '0.7vw',
+		height: '15px',
 		color: '#293757',
+		['@media (max-width:820px)']: {
+			height: '10px',
+		},
 	},
 	'& .MuiSlider-thumb ': {
 		background: 'linear-gradient(#e0a9b4, #cc96ee)',
-		width: '3vw',
-		height: '3vw',
+		width: '50px',
+		height: '50px',
+		['@media (max-width:820px)']: {
+			width: '30px',
+			height: '30px',
+		},
 	},
 	'&.MuiSlider-mark': {
 		opacity: '0%',
@@ -149,7 +162,18 @@ function AboutMe() {
 					visible: { opacity: 1, scale: 1 },
 					hidden: { opacity: 0, scale: 0 },
 				}}>
-				<Box sx={{ width: '70vw' }}>
+				<Box
+					sx={{
+						marginLeft: '10px',
+						marginRight: '10px',
+						width: '1000px',
+						['@media (max-width:1050px)']: {
+							width: '800px',
+						},
+						['@media (max-width:820px)']: {
+							width: '350px',
+						},
+					}}>
 					<AboutMeSlider
 						aria-label='Restricted values'
 						defaultValue={85}

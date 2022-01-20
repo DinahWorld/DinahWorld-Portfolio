@@ -45,18 +45,14 @@
 }
 
 .aboutMeSlider {
+	z-index: 1;
 	margin-top: 50px;
 }
 .aboutWorld {
 	position: absolute;
-	display: flex;
-	width: 20vw;
-	left: -150px;
-	top: 650px;
-	display: flex;
-	align-items: center;
-	justify-content: left;
-	flex-direction: row;
+	width: 300px;
+	left: -100px;
+	top: 750px;
 }
 
 .aboutMeteor {
