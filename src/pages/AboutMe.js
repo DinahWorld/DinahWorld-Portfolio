@@ -37,6 +37,7 @@ const AboutMeSlider = styled(Slider)({
 	'& .MuiSlider-markLabel': {
 		fontFamily: 'Montserrat, sans-serif',
 		fontSize: '15px',
+		fontWeight: '500',
 		color: 'white',
 		whiteSpace: 'break-spaces',
 		alignItems: 'center',
