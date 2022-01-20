@@ -48,7 +48,7 @@ export const ProjectList = [
 		image: iconTrad,
 		projectName: 'Traducteur FR-EN sur Terminal Linux 💻',
 		text: 'Programme pour traduire des phrases en français ou en anglais',
-		additional: ['C', 'API Watson additional Translator'],
+		additional: ['C', 'API Watson Additional Translator'],
 		date: 'aout 2021',
 	},
 	{

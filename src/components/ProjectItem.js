@@ -13,7 +13,7 @@ function AdditionalItem({ add }) {
 	color['Rust'] = '#EE96B0';
 	color['GTK-RS'] = '#EE96B0';
 	color['C'] = '#96A9EE';
-	color['API Watson additional Translator'] = '#96A9EE';
+	color['API Watson Additional Translator'] = '#96A9EE';
 	color['Java'] = '#EE9696';
 	color['JavaFX'] = '#D65757';
 	color['Android Studio'] = '#69C024';
@@ -60,12 +60,14 @@ function ProjectItem({ text, projectName, image, additional, date }) {
 				visible: { opacity: 1, scale: 1 },
 				hidden: { opacity: 0, scale: 0 },
 			}}>
-			<div
-				className='workSquare'
-				style={{
-					backgroundImage: `url(${image})`,
-					backgroundSize: 'cover',
-				}}></div>
+			<div className='workImg'>
+				<div
+					className='workSquare'
+					style={{
+						backgroundImage: `url(${image})`,
+						backgroundSize: 'cover',
+					}}></div>
+			</div>
 			<div className='workInfo'>
 				<div className='workProjectName'>
 					<h2>{projectName}</h2>

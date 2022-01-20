@@ -12,17 +12,27 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
+	margin-bottom: 50px;
+}
+.workImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 20px;
 }
 .workSquare {
-	margin-right: 50px;
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	background: #b6afff;
 	border-radius: 55px;
 	width: 150px;
 	height: 150px;
-	margin-bottom: 50px;
+}
+.workInfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 .workDescription {
 	display: flex;
@@ -31,7 +41,7 @@
 	justify-content: center;
 	background: #263352;
 	border-radius: 90px;
-	width: 1200px;
+	width: 70vw;
 	height: 75px;
 	font-weight: 400;
 }
@@ -41,11 +51,7 @@
 	font-size: 15px;
 }
 .workProjectName {
-	display: flex;
 	margin-left: 25px;
-	flex-direction: row;
-	align-items: center;
-	justify-content: left;
 }
 .workProjectName h2 {
 	font-size: 18px;
@@ -61,13 +67,14 @@
 	justify-content: left;
 }
 .workAdditionalItem {
-	margin-top: 10px;
-	margin-left: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 	border-radius: 90px;
-	min-width: 150px;
+	margin-top: 10px;
+	margin-left: 20px;
+	min-width: 5vw;
 	height: 30px;
 	font-size: 20px;
 	padding-left: 10px;
@@ -80,13 +87,40 @@
 
 .workWorld {
 	position: absolute;
-	bottom: -100px;
-	right: 10px;
-	width: 200px;
+	bottom: 0px;
+	right: 0px;
 }
-.workMiniWorld {
-	position: absolute;
-	bottom: 35px;
-	right: 230px;
-	width: 50px;
+
+@media screen and (max-width: 800px) {
+	.workDescription {
+		width: 50vw;
+	}
+	.workAdditionalItem {
+		font-size: 5px;
+		width: 5vw;
+		height: 15px;
+		min-width: 0px;
+		margin-right: 0px;
+		margin-left: 10px;
+		margin-top: 5px;
+	}
+	.workSquare {
+		background: #b6afff;
+		border-radius: 40px;
+		width: 100px;
+		height: 100px;
+	}
+	.workDescription {
+		border-radius: 90px;
+		width: 70vw;
+		height: 50px;
+	}
+	.workDescription p {
+		margin-left: 30px;
+		margin-right: 30px;
+		font-size: 9px;
+	}
+	.workImg {
+		margin-right: 10px;
+	}
 }

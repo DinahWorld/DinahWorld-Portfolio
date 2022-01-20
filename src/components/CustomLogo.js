@@ -97,50 +97,152 @@ function Stars1(x0, y0) {
 	);
 }
 function PlanetBottom(x0, y0) {
-	let pos = -600 + x0 + ' ' + (-350 + y0) + ' 800 800';
+	let pos = -500 + x0 + ' ' + (-180 + y0) + ' 800 800';
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<circle
-				cx='178.5'
-				cy='178.5'
+				cx='289'
+				cy='289'
+				r='228'
+				fill='url(#paint0_linear_123_174)'
+				fill-opacity='0.5'
+			/>
+			<circle
+				cx='289'
+				cy='289'
+				r='268'
+				fill='url(#paint1_linear_123_174)'
+				fill-opacity='0.4'
+			/>
+			<circle
+				cx='289'
+				cy='289'
+				r='289'
+				fill='url(#paint2_linear_123_174)'
+				fill-opacity='0.1'
+			/>
+			<circle
+				cx='288.5'
+				cy='288.5'
 				r='178.5'
-				fill='url(#paint0_linear_96_49)'
+				fill='url(#paint3_linear_123_174)'
 			/>
 			<defs>
 				<linearGradient
-					id='paint0_linear_96_49'
-					x1='357'
-					y1='-99.5'
-					x2='41'
-					y2='357'
+					id='paint0_linear_123_174'
+					x1='517'
+					y1='-66.0924'
+					x2='113.37'
+					y2='517'
 					gradientUnits='userSpaceOnUse'>
-					<stop stopColor='#FEC659' />
-					<stop offset='1' stopColor='#C892FF' />
+					<stop stop-color='#FEC659' stop-opacity='0.5' />
+					<stop offset='1' stop-color='#C892FF' stop-opacity='0.5' />
+				</linearGradient>
+				<linearGradient
+					id='paint1_linear_123_174'
+					x1='557'
+					y1='-128.389'
+					x2='82.5574'
+					y2='557'
+					gradientUnits='userSpaceOnUse'>
+					<stop stop-color='#FEC659' stop-opacity='0.5' />
+					<stop offset='1' stop-color='#C892FF' stop-opacity='0.5' />
+				</linearGradient>
+				<linearGradient
+					id='paint2_linear_123_174'
+					x1='578'
+					y1='-161.095'
+					x2='66.381'
+					y2='578'
+					gradientUnits='userSpaceOnUse'>
+					<stop stop-color='#FEC659' stop-opacity='0.5' />
+					<stop offset='1' stop-color='#C892FF' stop-opacity='0.5' />
+				</linearGradient>
+				<linearGradient
+					id='paint3_linear_123_174'
+					x1='467'
+					y1='10.5'
+					x2='151'
+					y2='467'
+					gradientUnits='userSpaceOnUse'>
+					<stop stop-color='#FEC659' />
+					<stop offset='1' stop-color='#C892FF' />
 				</linearGradient>
 			</defs>
 		</svg>
 	);
 }
 function PlanetTop(x0, y0) {
-	let pos = 300 + x0 + ' ' + (-300 + y0) + ' 2000 2000';
+	let pos = x0 + ' ' + (-300 + y0) + ' 2000 2000';
 	return (
 		<svg viewBox={pos} fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<circle
-				cx='178.5'
-				cy='178.5'
-				r='178.5'
-				fill='url(#paint0_linear_96_49)'
+				cx='142.5'
+				cy='142.5'
+				r='110.5'
+				fill='url(#paint0_linear_123_175)'
+				fill-opacity='0.5'
+			/>
+			<circle
+				cx='142.5'
+				cy='142.5'
+				r='129.5'
+				fill='url(#paint1_linear_123_175)'
+				fill-opacity='0.4'
+			/>
+			<circle
+				cx='142.5'
+				cy='142.5'
+				r='142.5'
+				fill='url(#paint2_linear_123_175)'
+				fill-opacity='0.2'
+			/>
+			<circle
+				cx='142.5'
+				cy='144.5'
+				r='91.5'
+				fill='url(#paint3_linear_123_175)'
 			/>
 			<defs>
 				<linearGradient
-					id='paint0_linear_96_49'
-					x1='357'
-					y1='-99.5'
-					x2='41'
-					y2='357'
+					id='paint0_linear_123_175'
+					x1='253'
+					y1='-29.5952'
+					x2='57.381'
+					y2='253'
 					gradientUnits='userSpaceOnUse'>
-					<stop stopColor='#FEC659' />
-					<stop offset='1' stopColor='#C892FF' />
+					<stop stop-color='#FEC659' stop-opacity='0.5' />
+					<stop offset='1' stop-color='#C892FF' stop-opacity='0.5' />
+				</linearGradient>
+				<linearGradient
+					id='paint1_linear_123_175'
+					x1='272'
+					y1='-59.1863'
+					x2='42.7451'
+					y2='272'
+					gradientUnits='userSpaceOnUse'>
+					<stop stop-color='#FEC659' stop-opacity='0.5' />
+					<stop offset='1' stop-color='#C892FF' stop-opacity='0.5' />
+				</linearGradient>
+				<linearGradient
+					id='paint2_linear_123_175'
+					x1='285'
+					y1='-79.4328'
+					x2='32.7311'
+					y2='285'
+					gradientUnits='userSpaceOnUse'>
+					<stop stop-color='#FEC659' stop-opacity='0.5' />
+					<stop offset='1' stop-color='#C892FF' stop-opacity='0.5' />
+				</linearGradient>
+				<linearGradient
+					id='paint3_linear_123_175'
+					x1='234'
+					y1='1.9958'
+					x2='72.0168'
+					y2='236'
+					gradientUnits='userSpaceOnUse'>
+					<stop stop-color='#FEC659' />
+					<stop offset='1' stop-color='#C892FF' />
 				</linearGradient>
 			</defs>
 		</svg>
