@@ -22,16 +22,23 @@ function FieldOfExp() {
 				hidden: { opacity: 0, scale: 0 },
 			}}>
 			<div className='FieldExpResume'>
-				<h1>Field of Experience</h1>
-				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					Atque, velit,
-					<br /> corrupti reprehenderit doloremque ducimus iusto
-					laudantium quisquam <br />
-					earum provident quidem dolores itaque debitis,
-					<br />
-					<br /> sapiente tenetur quaerat ullam id nemo asperiores.{' '}
-				</p>
+				<div className='FieldExpText'>
+					<h1>Field of Experience</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing
+						elit. Atque, velit,
+						<br /> corrupti reprehenderit doloremque ducimus iusto
+						laudantium quisquam <br />
+						earum provident quidem dolores itaque debitis,
+						<br />
+						<br /> sapiente tenetur quaerat ullam id nemo
+						asperiores. Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Sunt maiores ullam cum odit culpa
+						laudantium. Voluptas nostrum optio eveniet corrupti
+						ducimus facilis deserunt voluptatibus, fugit tenetur
+						pariatur dolore tempore rerum.
+					</p>
+				</div>
 			</div>
 			<div className='FieldExpList'>
 				<div className='FieldExpLine'>

@@ -13,9 +13,14 @@
 	flex-direction: column;
 }
 .FieldExpResume {
+	width: 50%;
 	display: flex;
 	flex-direction: column;
 	margin-right: 20px;
+	background-color: #263352;
+	border-radius: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 .FieldExpLine {
 	display: flex;
@@ -25,7 +30,10 @@
 	margin-bottom: 23px;
 	margin-left: 10px;
 }
-
+.FieldExpText {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 .FieldExpBox {
 	flex-grow: 1;
 	display: flex;
