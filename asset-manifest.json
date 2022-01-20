@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/DinahWorld-Portfolio/static/css/main.0cd05463.css",
+    "main.js": "/DinahWorld-Portfolio/static/js/main.b37dad42.js",
+    "static/media/face_bac_3.png": "/DinahWorld-Portfolio/static/media/face_bac_3.99e3ec40ba5a7e10584e.png",
+    "static/media/face_bac_2.png": "/DinahWorld-Portfolio/static/media/face_bac_2.5b37d8f3f7ed19dbea1e.png",
+    "static/media/face_bac_1.png": "/DinahWorld-Portfolio/static/media/face_bac_1.821e99fae58b34767620.png",
+    "static/media/face_lycee.png": "/DinahWorld-Portfolio/static/media/face_lycee.dae46b353178d57e0d70.png",
+    "static/media/face_bac_0.png": "/DinahWorld-Portfolio/static/media/face_bac_0.85970b9f153a8f80a5e8.png",
+    "static/media/iconFolio.svg": "/DinahWorld-Portfolio/static/media/iconFolio.78a79ceee6fa325cd1656a165c0df4cd.svg",
+    "static/media/icon2048.svg": "/DinahWorld-Portfolio/static/media/icon2048.c4f1b399b670ae649dc539c3033f7436.svg",
+    "static/media/iconUselessDG.svg": "/DinahWorld-Portfolio/static/media/iconUselessDG.7131c86ba612724edac8f2093b63907b.svg",
+    "static/media/iconFinger.svg": "/DinahWorld-Portfolio/static/media/iconFinger.a3c5064f38b73b4ea09b509326c34696.svg",
+    "static/media/iconFight.svg": "/DinahWorld-Portfolio/static/media/iconFight.de88cd7fc63cfaed899c0f3aaf1ece11.svg",
+    "static/media/iconVideo.svg": "/DinahWorld-Portfolio/static/media/iconVideo.3b83321fecb9d6f0790495d8e253099e.svg",
+    "static/media/iconMetro.svg": "/DinahWorld-Portfolio/static/media/iconMetro.c2c71d83331ab1906a692a9e618ac800.svg",
+    "static/media/WorldRayon.svg": "/DinahWorld-Portfolio/static/media/WorldRayon.7476322e8595b2310a2cf93783d073e2.svg",
+    "static/media/iconCadenas.svg": "/DinahWorld-Portfolio/static/media/iconCadenas.d9ebda574a43c69fde5daa2121a4d0a6.svg",
+    "index.html": "/DinahWorld-Portfolio/index.html",
+    "static/media/logo.svg": "/DinahWorld-Portfolio/static/media/logo.daf3a5a026e486bab267e006ad89a46e.svg",
+    "static/media/iconTrad.svg": "/DinahWorld-Portfolio/static/media/iconTrad.03f317675ffb1fc2ed28fc09ae81084b.svg",
+    "static/media/Meteor.svg": "/DinahWorld-Portfolio/static/media/Meteor.4008415d5d58efcecde63c640cd9d547.svg",
+    "static/media/World.svg": "/DinahWorld-Portfolio/static/media/World.7082daaca7d65e686a7c7ede5cfab16d.svg",
+    "main.0cd05463.css.map": "/DinahWorld-Portfolio/static/css/main.0cd05463.css.map",
+    "main.b37dad42.js.map": "/DinahWorld-Portfolio/static/js/main.b37dad42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cd05463.css",
+    "static/js/main.b37dad42.js"
+  ]
+}
