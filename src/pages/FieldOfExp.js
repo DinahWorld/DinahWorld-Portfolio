@@ -12,7 +12,7 @@ import ExperienceItem from '../components/ExperienceItem';
 function FieldOfExp() {
 	return (
 		<motion.div
-			className='FieldExp'
+			className='fieldExp'
 			initial='hidden'
 			whileInView='visible'
 			viewport={{ once: true }}
@@ -21,8 +21,8 @@ function FieldOfExp() {
 				visible: { opacity: 1, scale: 1 },
 				hidden: { opacity: 0, scale: 0 },
 			}}>
-			<div className='FieldExpResume'>
-				<div className='FieldExpText'>
+			<div className='fieldExpResume'>
+				<div className='fieldExpText'>
 					<h1>Field of Experience</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -40,23 +40,23 @@ function FieldOfExp() {
 					</p>
 				</div>
 			</div>
-			<div className='FieldExpList'>
-				<div className='FieldExpLine'>
+			<div className='fieldExpList'>
+				<div className='fieldExpLine'>
 					{SkillList1.map((item, key) => {
 						return <ExperienceItem key={key} skills={item} />;
 					})}
 				</div>
-				<div className='FieldExpLine'>
+				<div className='fieldExpLine'>
 					{SkillList2.map((item, key) => {
 						return <ExperienceItem key={key} skills={item} />;
 					})}
 				</div>
-				<div className='FieldExpLine'>
+				<div className='fieldExpLine'>
 					{SkillList3.map((item, key) => {
 						return <ExperienceItem key={key} skills={item} />;
 					})}{' '}
 				</div>
-				<div className='FieldExpLine'>
+				<div className='fieldExpLine'>
 					{SkillList4.map((item, key) => {
 						return <ExperienceItem key={key} skills={item} />;
 					})}{' '}

@@ -11,7 +11,7 @@ function ExperienceItem({ skills }) {
 			whileHover={{
 				scale: 1.1,
 			}}
-			className='FieldExpBox'
+			className='fieldExpBox'
 			style={{
 				backgroundColor: randomColor,
 			}}>
