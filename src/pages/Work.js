@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Work.css';
 import ProjectItem from '../components/ProjectItem';
 import { ProjectList } from '../helpers/ProjectList';
-import { ReactComponent as World } from '../assets/World.svg';
+import { ReactComponent as WorldR } from '../assets/WorldRayon.svg';
 import { motion, AnimatePresence } from 'framer-motion';
 
 function Work() {
@@ -25,10 +25,7 @@ function Work() {
 					})}
 				</div>
 				<div className='workWorld'>
-					<World />
-				</div>
-				<div className='workMiniWorld'>
-					<World />
+					<WorldR />
 				</div>
 			</motion.div>
 		</AnimatePresence>
