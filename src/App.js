@@ -11,8 +11,7 @@ function App() {
 		<div className='App'>
 			<Router>
 				<Routes>
-					<Route path='/' element={<Home />} />
-					<Route path='/AboutMe' element={<Work />} />
+					<Route path='/DinahWorld-Portfolio' element={<Home />} />
 				</Routes>
 				<Footer />
 			</Router>
