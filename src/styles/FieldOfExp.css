@@ -33,6 +33,7 @@
 	justify-content: center;
 	border-radius: 65px;
 	margin-right: 10px;
+	min-width: 100px;
 	height: 3vw;
 }
 .FieldExpBox h3 {
@@ -55,6 +56,9 @@
 	}
 	.FieldExpList {
 		margin-top: 20px;
+	}
+	.FieldExpBox {
+		min-width: 0px;
 	}
 }
 @media screen and (max-width: 700px) {
