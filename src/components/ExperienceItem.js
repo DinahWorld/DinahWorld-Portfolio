@@ -31,6 +31,7 @@ export function ExperienceItem({ skills }) {
 				visible: { opacity: 1, translateX: 0 },
 				hidden: { opacity: 0, translateX: -50 },
 			}}
+			transition={{ duration: 0.3 }}
 			whileHover={{
 				scale: 1.1,
 			}}

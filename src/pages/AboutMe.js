@@ -43,7 +43,7 @@ const AboutMeSlider = styled(Slider)({
 		whiteSpace: 'break-spaces',
 		alignItems: 'center',
 		justifyContent: 'center',
-		['@media (max-width:820px)']: {
+		['@media (max-width:1100px)']: {
 			fontSize: '10px',
 		},
 	},
@@ -162,7 +162,7 @@ function AboutMe() {
 									marginRight: '10px',
 									width: '500px',
 
-									['@media (max-width:820px)']: {
+									['@media (max-width:1100px)']: {
 										width: '350px',
 									},
 								}}>
@@ -193,24 +193,19 @@ function AboutMe() {
 						</h1>
 					</div>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing
-						elit. Atque, velit,
-						<br /> corrupti reprehenderit doloremque ducimus iusto
-						laudantium quisquam <br />
-						earum provident quidem dolores itaque debitis,
-						<br />
-						<br /> sapiente tenetur quaerat ullam id nemo
-						asperiores. Lorem ipsum dolor sit amet consectetur,
-						adipisicing elit. Minus, fuga architecto sequi sint ad,
-						alias harum numquam aspernatur quas ipsum magni amet hic
-						aut nihil quam mollitia est consequatur libero.
+						Je m'apelle Dinath et je suis développeur et étudiant à
+						l'Université de Paris 8 en 3e année de Licence
+						Informatique
 						<br />
 						<br />
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Beatae expedita itaque autem architecto quae repudiandae
-						temporibus libero accusantium hic tenetur quaerat
-						reprehenderit perspiciatis corporis, consequuntur
-						asperiores. Explicabo laboriosam consectetur ipsa!
+						Ces trois année m'ont permis de découvrire la
+						programmation et de concevoir plusieurs programmes
+						telles que des Jeux Web, des Applications Bureautique ou
+						bien même une Application Mobile !
+						<br />
+						<br />
+						J'ai fait l'expérience de Tuteur Etudiant en
+						Informatique durant l'année 2021
 					</p>
 					<CustomButton>
 						<FileUploadRoundedIcon />

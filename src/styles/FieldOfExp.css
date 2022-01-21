@@ -19,6 +19,7 @@
 	margin-right: 20px;
 	background-color: #263352;
 	border-radius: 40px;
+	font-weight: 500;
 	margin-right: 20px;
 	margin-left: 20px;
 }
@@ -108,7 +109,7 @@
 	border-radius: 20px;
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1100px) {
 	.fieldExpResume {
 		align-items: center;
 		margin-right: 20px;
@@ -135,8 +136,6 @@
 		margin-right: 5px;
 		border-radius: 15px;
 	}
-}
-@media screen and (max-width: 700px) {
 	.fieldExpBox {
 		margin-right: 0px;
 		height: 35px;
