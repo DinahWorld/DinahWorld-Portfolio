@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DinahWorld-Portfolio/static/css/main.4a404205.css",
-    "main.js": "/DinahWorld-Portfolio/static/js/main.632c90e2.js",
+    "main.css": "/DinahWorld-Portfolio/static/css/main.a019aaa4.css",
+    "main.js": "/DinahWorld-Portfolio/static/js/main.b269c608.js",
     "static/media/face_bac_3.png": "/DinahWorld-Portfolio/static/media/face_bac_3.99e3ec40ba5a7e10584e.png",
     "static/media/face_bac_2.png": "/DinahWorld-Portfolio/static/media/face_bac_2.5b37d8f3f7ed19dbea1e.png",
     "static/media/face_bac_1.png": "/DinahWorld-Portfolio/static/media/face_bac_1.821e99fae58b34767620.png",
@@ -22,16 +22,15 @@
     "static/media/JavaScript.svg": "/DinahWorld-Portfolio/static/media/JavaScript.8662d7c24214fda0e250e3d9b5fe7093.svg",
     "static/media/CSharp.svg": "/DinahWorld-Portfolio/static/media/CSharp.0da35c5ba41c33579bc4ee948056fcbe.svg",
     "index.html": "/DinahWorld-Portfolio/index.html",
-    "static/media/logo.svg": "/DinahWorld-Portfolio/static/media/logo.daf3a5a026e486bab267e006ad89a46e.svg",
     "static/media/C.svg": "/DinahWorld-Portfolio/static/media/C.0c8305a461a3e12f6dc12056b1114342.svg",
     "static/media/iconTrad.svg": "/DinahWorld-Portfolio/static/media/iconTrad.03f317675ffb1fc2ed28fc09ae81084b.svg",
     "static/media/Meteor.svg": "/DinahWorld-Portfolio/static/media/Meteor.4008415d5d58efcecde63c640cd9d547.svg",
     "static/media/World.svg": "/DinahWorld-Portfolio/static/media/World.7082daaca7d65e686a7c7ede5cfab16d.svg",
-    "main.4a404205.css.map": "/DinahWorld-Portfolio/static/css/main.4a404205.css.map",
-    "main.632c90e2.js.map": "/DinahWorld-Portfolio/static/js/main.632c90e2.js.map"
+    "main.a019aaa4.css.map": "/DinahWorld-Portfolio/static/css/main.a019aaa4.css.map",
+    "main.b269c608.js.map": "/DinahWorld-Portfolio/static/js/main.b269c608.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a404205.css",
-    "static/js/main.632c90e2.js"
+    "static/css/main.a019aaa4.css",
+    "static/js/main.b269c608.js"
   ]
 }
