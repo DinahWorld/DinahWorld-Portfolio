@@ -95,10 +95,13 @@
 	.workDescription {
 		width: 50vw;
 	}
+	.workPresentation {
+		margin-bottom: 10px;
+	}
 	.workAdditionalItem {
 		font-size: 10px;
 		height: 15px;
-		min-width: 0px;
+		min-width: 25px;
 		margin-right: 0px;
 		margin-left: 10px;
 		margin-top: 5px;
