@@ -1,13 +1,11 @@
 .footer {
-	position: fixed;
+	position: absolute;
+	display: inline-flex;
 	z-index: 1;
 	bottom: 0;
-	margin-bottom: 20px;
+	width: 100%;
 }
-
-@media screen and (max-width: 735px) {
-	.footer {
-		right: 0px;
-		margin-right: 40px;
-	}
+.footerMail {
+	margin-top: 10px;
+	margin-left: 10px;
 }

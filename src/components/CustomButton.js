@@ -30,7 +30,7 @@ const StyledButtonFooter1 = styled(Button)`
 	margin-bottom: 30px;
 	margin-left: 30px;
 	&:hover {
-		background-color: #c892ff;
+		background-color: #b9b2ff;
 	}
 	&:focus {
 		outline: none;
@@ -45,6 +45,22 @@ const StyledButtonFooter2 = styled(Button)`
 	margin-bottom: 30px;
 	margin-left: 30px;
 	&:hover {
+		background-color: #c892ff;
+	}
+	&:focus {
+		outline: none;
+		background-color: #e0a9b4;
+	}
+`;
+
+const StyledButtonFooter3 = styled(Button)`
+	aspect-ratio: 1;
+	color: white;
+	transition: all 150ms ease;
+	border-radius: 100%;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	&:hover {
 		background-color: #fdc45c;
 	}
 	&:focus {
@@ -52,12 +68,12 @@ const StyledButtonFooter2 = styled(Button)`
 		background-color: #e0a9b4;
 	}
 `;
+
 const color = {
 	500: '#b6afff',
 	600: '#fdc45c',
 	700: '#e0a9b4',
 };
-
 const CustomButtonRoot = styled('span')`
 	font-family: IBM Plex Sans, sans-serif;
 	font-weight: bold;
@@ -121,7 +137,15 @@ export function CustomButtonFooter2(props) {
 		/>
 	);
 }
-
+export function CustomButtonFooter3(props) {
+	return (
+		<ButtonUnstyled
+			sx={{ minWidth: 0 }}
+			{...props}
+			component={StyledButtonFooter3}
+		/>
+	);
+}
 export function CustomButtonAboutMe(props) {
 	return <ButtonUnstyled {...props} component={CustomButtonRoot} />;
 }
