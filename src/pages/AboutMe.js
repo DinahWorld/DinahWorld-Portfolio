@@ -204,8 +204,13 @@ function AboutMe() {
 						bien même une Application Mobile !
 						<br />
 						<br />
-						J'ai fait l'expérience de Tuteur Etudiant en
-						Informatique durant l'année 2021
+						J'étais Tuteur Etudiant en Informatique durant l'année
+						2021, c'étais une assez bonne expérience
+						<br />
+						<br />
+						En dehors de l'école et la programmation, je vais
+						souvent à Fitness Park pour bouger un peu ( le métier de
+						développeur n'est pas facile haha ).
 					</p>
 					<CustomButton>
 						<FileUploadRoundedIcon />

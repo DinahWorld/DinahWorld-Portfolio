@@ -29,7 +29,16 @@ function Footer() {
 	const toggleOpen = () => setIsOpen(!isOpen);
 
 	return (
-		<div className='homeFooter'>
+		<motion.div
+			className='homeFooter'
+			initial='hidden'
+			whileInView='visible'
+			viewport={{ once: true }}
+			transition={{ duration: 0.5 }}
+			variants={{
+				visible: { opacity: 1, translateX: 0 },
+				hidden: { opacity: 0, translateX: -50 },
+			}}>
 			<CustomButtonFooter1 href='https://github.com/DinahWorld'>
 				<GitHubIcon />
 			</CustomButtonFooter1>
@@ -42,7 +51,7 @@ function Footer() {
 				</CustomButtonFooter3>
 			</motion.div>
 			<AnimatePresence>{isOpen && <OpenMail />}</AnimatePresence>
-		</div>
+		</motion.div>
 	);
 }
 
