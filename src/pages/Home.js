@@ -9,12 +9,32 @@ function Home() {
 	return (
 		<div className='container'>
 			<div className='home'>
-				<div className='homeTitle'>
+				<motion.div
+					className='homeTitle'
+					initial='hidden'
+					whileInView='visible'
+					viewport={{ once: true }}
+					transition={{ duration: 0.5 }}
+					variants={{
+						visible: { opacity: 1, translateY: 0 },
+						hidden: { opacity: 0, translateY: 50 },
+					}}>
 					<h1>
 						Hi. I'm Dinath. <br /> A CS Student.
 					</h1>
+				</motion.div>
+				<motion.div
+					className='homeSubTitle'
+					initial='hidden'
+					whileInView='visible'
+					viewport={{ once: true }}
+					transition={{ duration: 0.7 }}
+					variants={{
+						visible: { opacity: 1, translateY: 0 },
+						hidden: { opacity: 0, translateY: 50 },
+					}}>
 					<p>Welcome to my DinahWorld</p>
-				</div>
+				</motion.div>
 				<motion.div
 					className='homeAnimatedLogo'
 					initial='hidden'

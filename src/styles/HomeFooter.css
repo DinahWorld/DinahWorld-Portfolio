@@ -1,11 +1,11 @@
-.footer {
+.homeFooter {
 	position: absolute;
 	display: inline-flex;
 	z-index: 1;
 	bottom: 0;
 	width: 100%;
 }
-.footerMail {
+.homeFooterMail {
 	margin-top: 10px;
 	margin-left: 10px;
 }

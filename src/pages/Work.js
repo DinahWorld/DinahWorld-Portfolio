@@ -11,7 +11,7 @@ function Work() {
 			<motion.div className='work'>
 				<h1>Project</h1>
 				<div className='workProject'>
-					{ProjectList.map((projectItem, key) => {
+					{ProjectList.map((projectItem, index, key) => {
 						return (
 							<ProjectItem
 								key={key}
@@ -20,6 +20,7 @@ function Work() {
 								image={projectItem.image}
 								additional={projectItem.additional}
 								date={projectItem.date}
+								index={index}
 							/>
 						);
 					})}

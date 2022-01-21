@@ -113,10 +113,19 @@ function AboutMe() {
 				viewport={{ once: true }}
 				transition={{ duration: 0.5 }}
 				variants={{
-					visible: { opacity: 1, scale: 1 },
-					hidden: { opacity: 0, scale: 0 },
+					visible: { opacity: 1, translateX: 0 },
+					hidden: { opacity: 0, translateX: -50 },
 				}}>
-				<div className='aboutMeSquare'>
+				<div
+					className='aboutMeSquare'
+					initial='hidden'
+					whileInView='visible'
+					viewport={{ once: true }}
+					transition={{ duration: 0.5 }}
+					variants={{
+						visible: { opacity: 1, translateX: 0 },
+						hidden: { opacity: 0, translateX: -50 },
+					}}>
 					<AnimatePresence>
 						<motion.div animate={controls}>
 							<div className='aboutMyFace'>
@@ -143,8 +152,8 @@ function AboutMe() {
 							viewport={{ once: true }}
 							transition={{ duration: 0.5 }}
 							variants={{
-								visible: { opacity: 1, scale: 1 },
-								hidden: { opacity: 0, scale: 0 },
+								visible: { opacity: 1, translateX: 0 },
+								hidden: { opacity: 0, translateX: -50 },
 							}}>
 							<Box
 								sx={{
@@ -166,7 +175,16 @@ function AboutMe() {
 						</motion.div>
 					</AnimatePresence>
 				</div>
-				<div className='aboutMeText'>
+				<motion.div
+					className='aboutMeText'
+					initial='hidden'
+					whileInView='visible'
+					viewport={{ once: true }}
+					transition={{ duration: 0.5 }}
+					variants={{
+						visible: { opacity: 1, translateX: 0 },
+						hidden: { opacity: 0, translateX: -50 },
+					}}>
 					<div className='aboutMeTitle'>
 						<h1>
 							I'm <font color={randomColor1}>Dinath,</font> a{' '}
@@ -197,7 +215,7 @@ function AboutMe() {
 						<FileUploadRoundedIcon />
 						CV
 					</CustomButton>
-				</div>
+				</motion.div>
 			</motion.div>
 
 			<motion.div

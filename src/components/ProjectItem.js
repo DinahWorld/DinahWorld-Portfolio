@@ -31,7 +31,7 @@ function AdditionalItem({ add }) {
 	);
 }
 
-function ProjectItem({ text, projectName, image, additional, date }) {
+function ProjectItem({ text, projectName, image, additional, date, index }) {
 	const [showProject, setShowProject] = useState(false);
 	const [lastYPos, setLastYPos] = useState(0);
 
@@ -58,8 +58,8 @@ function ProjectItem({ text, projectName, image, additional, date }) {
 			viewport={{ once: true }}
 			transition={{ duration: 0.5 }}
 			variants={{
-				visible: { opacity: 1, scale: 1 },
-				hidden: { opacity: 0, scale: 0 },
+				visible: { opacity: 1, translateX: 0 },
+				hidden: { opacity: 0, translateX: -50 },
 			}}>
 			<div className='workImg'>
 				<div

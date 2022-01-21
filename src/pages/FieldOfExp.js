@@ -24,8 +24,8 @@ function FieldOfExp() {
 				viewport={{ once: true }}
 				transition={{ duration: 0.5 }}
 				variants={{
-					visible: { opacity: 1, scale: 1 },
-					hidden: { opacity: 0, scale: 0 },
+					visible: { opacity: 1, translateX: 0 },
+					hidden: { opacity: 0, translateX: -50 },
 				}}>
 				<div className='fieldExpResume'>
 					<div className='fieldExpText'>

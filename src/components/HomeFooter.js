@@ -9,12 +9,12 @@ import {
 	CustomButtonFooter2,
 	CustomButtonFooter3,
 } from './CustomButton';
-import '../styles/Footer.css';
+import '../styles/HomeFooter.css';
 
 function OpenMail() {
 	return (
 		<motion.div
-			className='footerMail'
+			className='homeFooterMail'
 			layout
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
@@ -29,7 +29,7 @@ function Footer() {
 	const toggleOpen = () => setIsOpen(!isOpen);
 
 	return (
-		<div className='footer'>
+		<div className='homeFooter'>
 			<CustomButtonFooter1 href='https://github.com/DinahWorld'>
 				<GitHubIcon />
 			</CustomButtonFooter1>

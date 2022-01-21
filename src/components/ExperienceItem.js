@@ -23,6 +23,14 @@ export function ExperienceItem({ skills }) {
 	};
 	return (
 		<motion.div
+			initial='hidden'
+			whileInView='visible'
+			viewport={{ once: true }}
+			transition={{ duration: 1 }}
+			variants={{
+				visible: { opacity: 1, translateX: 0 },
+				hidden: { opacity: 0, translateX: -50 },
+			}}
 			whileHover={{
 				scale: 1.1,
 			}}
@@ -38,6 +46,14 @@ export function ExperienceItem({ skills }) {
 export function LanguageItem({ img }) {
 	return (
 		<motion.div
+			initial='hidden'
+			whileInView='visible'
+			viewport={{ once: true }}
+			transition={{ duration: 0.5 }}
+			variants={{
+				visible: { opacity: 1, translateX: 0 },
+				hidden: { opacity: 0, translateX: -50 },
+			}}
 			whileHover={{
 				scale: 1.1,
 			}}
