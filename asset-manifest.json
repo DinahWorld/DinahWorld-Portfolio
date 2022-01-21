@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DinahWorld-Portfolio/static/css/main.fd08b2c6.css",
-    "main.js": "/DinahWorld-Portfolio/static/js/main.11a14a00.js",
+    "main.js": "/DinahWorld-Portfolio/static/js/main.3d36b2c0.js",
     "static/media/face_bac_3.png": "/DinahWorld-Portfolio/static/media/face_bac_3.99e3ec40ba5a7e10584e.png",
     "static/media/face_bac_2.png": "/DinahWorld-Portfolio/static/media/face_bac_2.5b37d8f3f7ed19dbea1e.png",
     "static/media/face_bac_1.png": "/DinahWorld-Portfolio/static/media/face_bac_1.821e99fae58b34767620.png",
@@ -27,10 +27,10 @@
     "static/media/Meteor.svg": "/DinahWorld-Portfolio/static/media/Meteor.4008415d5d58efcecde63c640cd9d547.svg",
     "static/media/World.svg": "/DinahWorld-Portfolio/static/media/World.7082daaca7d65e686a7c7ede5cfab16d.svg",
     "main.fd08b2c6.css.map": "/DinahWorld-Portfolio/static/css/main.fd08b2c6.css.map",
-    "main.11a14a00.js.map": "/DinahWorld-Portfolio/static/js/main.11a14a00.js.map"
+    "main.3d36b2c0.js.map": "/DinahWorld-Portfolio/static/js/main.3d36b2c0.js.map"
   },
   "entrypoints": [
     "static/css/main.fd08b2c6.css",
-    "static/js/main.11a14a00.js"
+    "static/js/main.3d36b2c0.js"
   ]
 }
