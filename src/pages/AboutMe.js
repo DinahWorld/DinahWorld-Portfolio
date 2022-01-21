@@ -13,6 +13,7 @@ import { ReactComponent as World } from '../assets/World.svg';
 import { ReactComponent as Meteor } from '../assets/Meteor.svg';
 import { CustomButtonAboutMe as CustomButton } from '../components/CustomButton';
 import FileUploadRoundedIcon from '@mui/icons-material/FileUploadRounded';
+import { PersonnalColor } from '../helpers/Color';
 
 const marks = [
 	{
@@ -76,6 +77,10 @@ const AboutMeSlider = styled(Slider)({
 });
 
 function AboutMe() {
+	let randomNumber = () => Math.floor(Math.random() * PersonnalColor.length);
+	let randomColor1 = PersonnalColor[randomNumber()];
+	let randomColor2 = PersonnalColor[randomNumber()];
+
 	const controls = useAnimation();
 	const [openLinks, setOpenLinks] = useState(3);
 	const changeImage = (value) => {
@@ -163,7 +168,10 @@ function AboutMe() {
 				</div>
 				<div className='aboutMeText'>
 					<div className='aboutMeTitle'>
-						I'm <font color='#fdc45c'>Dinath,</font> a CS Student
+						<h1>
+							I'm <font color={randomColor1}>Dinath,</font> a{' '}
+							<font color={randomColor2}>CS Student</font>
+						</h1>
 					</div>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing

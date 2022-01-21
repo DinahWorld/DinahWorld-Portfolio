@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import '../styles/FieldOfExp.css';
+import { PersonnalColor } from '../helpers/Color';
+
 import {
 	SkillList1,
 	SkillList2,
@@ -10,6 +12,9 @@ import {
 import ExperienceItem from '../components/ExperienceItem';
 
 function FieldOfExp() {
+	let randomNumber = Math.floor(Math.random() * PersonnalColor.length);
+	let randomColor = PersonnalColor[randomNumber];
+
 	return (
 		<motion.div
 			className='fieldExp'
@@ -23,7 +28,9 @@ function FieldOfExp() {
 			}}>
 			<div className='fieldExpResume'>
 				<div className='fieldExpText'>
-					<h1>Field of Experience</h1>
+					<h1>
+						Field of <font color={randomColor}>Experience</font>
+					</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing
 						elit. Atque, velit,

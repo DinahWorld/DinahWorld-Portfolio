@@ -58,7 +58,6 @@
 	.fieldExpResume {
 		align-items: center;
 		margin-right: 20px;
-		text-align: center;
 	}
 
 	.fieldExp {
@@ -77,9 +76,13 @@
 		height: 35px;
 	}
 	.fieldExpBox h3 {
-		font-size: 8px;
+		font-size: 10px;
 	}
 	.fieldExpList {
 		width: 100%;
+	}
+	.fieldExpResume {
+		margin-top: 150px;
+		width: 90%;
 	}
 }

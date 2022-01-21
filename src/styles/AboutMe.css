@@ -8,6 +8,10 @@
 	flex-direction: column;
 	margin-bottom: 100px;
 }
+.aboutMeLeftSide {
+	display: flex;
+	width: 50%;
+}
 .aboutMeResume {
 	display: flex;
 	align-items: center;
@@ -38,16 +42,20 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-
+	width: 50%;
 	font-weight: 400;
 	background-color: #263352;
 	border-radius: 40px;
 	margin-right: 20px;
 	margin-left: 20px;
+	padding-bottom: 20px;
 }
 .aboutMeTitle {
+	display: flex;
 	font-weight: 500;
-	font-size: 40px;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .aboutMeText p {
 	margin-left: 20px;
@@ -72,6 +80,9 @@
 }
 
 @media screen and (max-width: 735px) {
+	.aboutMe {
+		margin-top: 150px;
+	}
 	.aboutMeResume {
 		flex-direction: column;
 	}
@@ -79,7 +90,8 @@
 		font-size: 30px;
 	}
 	.aboutMeText {
-		text-align: center;
+		margin-bottom: 0px;
+		width: 90%;
 	}
 	.aboutMeSquare {
 		margin-left: 0px;
