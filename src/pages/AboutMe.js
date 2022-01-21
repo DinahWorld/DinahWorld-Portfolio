@@ -200,9 +200,12 @@ function AboutMe() {
 				</div>
 			</motion.div>
 
-			<div className='aboutWorld'>
+			<motion.div
+				className='aboutWorld'
+				animate={{ rotate: 360 }}
+				transition={{ ease: 'linear', duration: 20, repeat: Infinity }}>
 				<World />
-			</div>
+			</motion.div>
 		</div>
 	);
 }

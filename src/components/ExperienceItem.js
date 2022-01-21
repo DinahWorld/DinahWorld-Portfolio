@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { PersonnalColor } from '../helpers/Color';
 
-function ExperienceItem({ skills }) {
+export function ExperienceItem({ skills }) {
 	let randomNumber = Math.floor(Math.random() * PersonnalColor.length);
 	let randomColor = PersonnalColor[randomNumber];
 	let fieldText = () => {
 		switch (skills) {
-			case 'PHP':
+			case 'C':
 			case 'ReactJS':
 			case 'Communication':
 			case 'Anglais':
@@ -37,4 +37,17 @@ function ExperienceItem({ skills }) {
 	);
 }
 
-export default ExperienceItem;
+export function LanguageItem({ img }) {
+	return (
+		<motion.div
+			whileHover={{
+				scale: 1.1,
+			}}
+			className='fieldExpLanguage'
+			style={{
+				backgroundColor: '#3B4A61',
+				backgroundImage: `url(${img})`,
+				backgroundSize: 'cover',
+			}}></motion.div>
+	);
+}

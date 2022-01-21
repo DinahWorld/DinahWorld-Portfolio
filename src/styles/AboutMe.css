@@ -6,7 +6,6 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-bottom: 100px;
 }
 .aboutMeLeftSide {
 	display: flex;
@@ -67,7 +66,7 @@
 }
 .aboutWorld {
 	position: absolute;
-	width: 40vw;
+	width: 35vw;
 	left: -100px;
 	top: 750px;
 }

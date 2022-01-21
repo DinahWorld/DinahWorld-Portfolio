@@ -9,7 +9,7 @@ import {
 	SkillList3,
 	SkillList4,
 } from '../helpers/ExperienceList';
-import ExperienceItem from '../components/ExperienceItem';
+import { ExperienceItem, LanguageItem } from '../components/ExperienceItem';
 
 function FieldOfExp() {
 	let randomNumber = Math.floor(Math.random() * PersonnalColor.length);
@@ -47,13 +47,14 @@ function FieldOfExp() {
 							pariatur dolore tempore rerum.
 						</p>
 					</div>
-				</div>
-				<div className='fieldExpList'>
-					<div className='fieldExpLine'>
+					<div className='fieldExpLanguageList'>
 						{SkillList1.map((item, key) => {
-							return <ExperienceItem key={key} skills={item} />;
+							console.log(item);
+							return <LanguageItem key={key} img={item} />;
 						})}
 					</div>
+				</div>
+				<div className='fieldExpList'>
 					<div className='fieldExpLine'>
 						{SkillList2.map((item, key) => {
 							return <ExperienceItem key={key} skills={item} />;
