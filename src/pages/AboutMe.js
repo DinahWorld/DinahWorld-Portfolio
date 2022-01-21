@@ -126,6 +126,7 @@ function AboutMe() {
 						visible: { opacity: 1, translateX: 0 },
 						hidden: { opacity: 0, translateX: -50 },
 					}}>
+					<h1>About Me</h1>
 					<AnimatePresence>
 						<motion.div animate={controls}>
 							<div className='aboutMyFace'>

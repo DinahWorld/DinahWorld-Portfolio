@@ -129,6 +129,12 @@
 	.fieldExpBoxFirst {
 		min-width: 0px;
 	}
+	.fieldExpLanguage {
+		width: 50px;
+		height: 50px;
+		margin-right: 5px;
+		border-radius: 15px;
+	}
 }
 @media screen and (max-width: 700px) {
 	.fieldExpBox {
