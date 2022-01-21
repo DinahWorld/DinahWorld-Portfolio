@@ -21,13 +21,24 @@ function AdditionalItem({ add }) {
 
 	let selectColor = color[add];
 	return (
-		<div
+		<motion.div
 			className='workAdditionalItem'
+			initial='hidden'
+			whileInView='visible'
+			viewport={{ once: true }}
+			variants={{
+				visible: { opacity: 1, translateX: 0 },
+				hidden: { opacity: 0, translateX: -50 },
+			}}
+			transition={{ duration: 0.6 }}
+			whileHover={{
+				scale: 1.1,
+			}}
 			style={{
 				backgroundColor: selectColor,
 			}}>
 			{add}
-		</div>
+		</motion.div>
 	);
 }
 
@@ -61,14 +72,26 @@ function ProjectItem({ text, projectName, image, additional, date, index }) {
 				visible: { opacity: 1, translateX: 0 },
 				hidden: { opacity: 0, translateX: -50 },
 			}}>
-			<div className='workImg'>
+			<motion.div
+				className='workImg'
+				initial='hidden'
+				whileInView='visible'
+				viewport={{ once: true }}
+				variants={{
+					visible: { opacity: 1, translateX: 0 },
+					hidden: { opacity: 0, translateX: -50 },
+				}}
+				transition={{ duration: 0.3 }}
+				whileHover={{
+					scale: 1.1,
+				}}>
 				<div
 					className='workSquare'
 					style={{
 						backgroundImage: `url(${image})`,
 						backgroundSize: 'cover',
 					}}></div>
-			</div>
+			</motion.div>
 			<div className='workInfo'>
 				<div className='workProjectName'>
 					<h2>{projectName}</h2>
