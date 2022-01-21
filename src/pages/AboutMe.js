@@ -212,10 +212,6 @@ function AboutMe() {
 						souvent à Fitness Park pour bouger un peu ( le métier de
 						développeur n'est pas facile haha ).
 					</p>
-					<CustomButton>
-						<FileUploadRoundedIcon />
-						CV
-					</CustomButton>
 				</motion.div>
 			</motion.div>
 

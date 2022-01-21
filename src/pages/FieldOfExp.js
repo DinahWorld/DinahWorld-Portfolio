@@ -2,7 +2,8 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import '../styles/FieldOfExp.css';
 import { PersonnalColor } from '../helpers/Color';
-
+import { CustomButtonAboutMe as CustomButton } from '../components/CustomButton';
+import FileUploadRoundedIcon from '@mui/icons-material/FileUploadRounded';
 import {
 	SkillList1,
 	SkillList2,
@@ -52,6 +53,12 @@ function FieldOfExp() {
 							console.log(item);
 							return <LanguageItem key={key} img={item} />;
 						})}
+					</div>
+					<div className='fieldExpCV'>
+						<CustomButton>
+							<FileUploadRoundedIcon />
+							CV
+						</CustomButton>
 					</div>
 				</div>
 				<div className='fieldExpList'>

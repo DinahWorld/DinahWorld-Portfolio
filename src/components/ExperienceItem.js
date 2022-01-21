@@ -7,13 +7,13 @@ export function ExperienceItem({ skills }) {
 	let randomColor = PersonnalColor[randomNumber];
 	let fieldText = () => {
 		switch (skills) {
-			case 'ReactJS':
+			case 'Android Studio':
 			case 'Communication':
 			case 'Anglais':
 				return 'fieldExpBoxFirst';
 				break;
 			case 'JavaFX':
-			case 'Software':
+			case 'LeaderShip':
 			case 'Tamil':
 				return 'fieldExpBoxLast';
 				break;

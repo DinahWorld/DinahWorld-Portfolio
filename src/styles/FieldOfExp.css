@@ -108,7 +108,11 @@
 	margin-bottom: 20px;
 	border-radius: 20px;
 }
-
+.fieldExpCV {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
 @media screen and (max-width: 1100px) {
 	.fieldExpResume {
 		align-items: center;
@@ -174,8 +178,8 @@
 		width: 90%;
 	}
 	.fieldExpLanguage {
-		width: 50px;
-		height: 50px;
+		width: 45px;
+		height: 45px;
 		margin-right: 5px;
 		border-radius: 15px;
 	}

@@ -8,18 +8,18 @@ import python from '../assets/Python.svg';
 export const SkillList1 = [c, javaScript, python, java, rust, cSharp];
 
 export const SkillList2 = [
-	'ReactJS',
-	'Linux',
-	'Windows',
 	'Android Studio',
+	'Linux',
 	'Git',
+	'ReactJS',
+	'Windows',
 	'JavaFX',
 ];
 export const SkillList4 = [
 	'Communication',
 	'Présentations',
-	'LeaderShip',
 	'Software',
+	'LeaderShip',
 ];
 
 export const SkillList3 = ['Anglais', 'Français', 'Tamil'];
