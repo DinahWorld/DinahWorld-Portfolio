@@ -13,13 +13,13 @@ export const SkillList2 = [
 	'Windows',
 	'Android Studio',
 	'Git',
-	'Photoshop',
+	'JavaFX',
 ];
 export const SkillList4 = [
 	'Communication',
 	'Présentations',
 	'LeaderShip',
-	'Enseignement',
+	'Software',
 ];
 
 export const SkillList3 = ['Anglais', 'Français', 'Tamil'];

@@ -12,6 +12,7 @@
 	width: 50%;
 }
 .aboutMeResume {
+	z-index: 1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -81,6 +82,7 @@
 @media screen and (max-width: 735px) {
 	.aboutMe {
 		margin-top: 150px;
+		margin-bottom: 100px;
 	}
 	.aboutMeResume {
 		flex-direction: column;
@@ -98,5 +100,12 @@
 	}
 	.aboutMeSlider {
 		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-height: 667px) {
+	.aboutMe {
+		margin-top: 150px;
+		margin-bottom: 150px;
 	}
 }

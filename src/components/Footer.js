@@ -8,10 +8,10 @@ import '../styles/Footer.css';
 function Footer() {
 	return (
 		<div className='footer'>
-			<CustomButtonFooter1>
+			<CustomButtonFooter1 href='https://github.com/DinahWorld'>
 				<GitHubIcon />
 			</CustomButtonFooter1>
-			<CustomButtonFooter2>
+			<CustomButtonFooter2 href=' www.linkedin.com/in/dinath-sh'>
 				<LinkedInIcon />
 			</CustomButtonFooter2>
 		</div>
