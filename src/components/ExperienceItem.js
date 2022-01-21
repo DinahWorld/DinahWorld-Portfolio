@@ -5,13 +5,30 @@ import { PersonnalColor } from '../helpers/Color';
 function ExperienceItem({ skills }) {
 	let randomNumber = Math.floor(Math.random() * PersonnalColor.length);
 	let randomColor = PersonnalColor[randomNumber];
-
+	let fieldText = () => {
+		switch (skills) {
+			case 'PHP':
+			case 'ReactJS':
+			case 'Communication':
+			case 'Anglais':
+				return 'fieldExpBoxFirst';
+				break;
+			case 'C#':
+			case 'Photoshop':
+			case 'Enseignement':
+			case 'Tamil':
+				return 'fieldExpBoxLast';
+				break;
+			default:
+				return 'fieldExpBox';
+		}
+	};
 	return (
 		<motion.div
 			whileHover={{
 				scale: 1.1,
 			}}
-			className='fieldExpBox'
+			className={fieldText()}
 			style={{
 				backgroundColor: randomColor,
 			}}>

@@ -53,6 +53,44 @@
 	margin-left: 10px;
 	margin-right: 10px;
 }
+.fieldExpBoxFirst {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 65px;
+	margin-right: 10px;
+	min-width: 100px;
+	height: 3vw;
+}
+.fieldExpBoxFirst h3 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.fieldExpBoxLast {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 65px;
+	margin-right: 10px;
+	min-width: 100px;
+	height: 3vw;
+}
+.fieldExpBoxLast h3 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
 @media screen and (max-width: 1110px) {
 	.fieldExpResume {
@@ -69,6 +107,12 @@
 	.fieldExpBox {
 		min-width: 0px;
 	}
+	.fieldExpBoxLast {
+		min-width: 0px;
+	}
+	.fieldExpBoxFirst {
+		min-width: 0px;
+	}
 }
 @media screen and (max-width: 700px) {
 	.fieldExpBox {
@@ -76,6 +120,26 @@
 		height: 35px;
 	}
 	.fieldExpBox h3 {
+		font-size: 10px;
+	}
+	.fieldExpBoxFirst {
+		margin-right: 0px;
+		border-radius: 0px;
+		border-top-right-radius: 65px;
+		border-bottom-right-radius: 65px;
+		height: 35px;
+	}
+	.fieldExpBoxFirst h3 {
+		font-size: 10px;
+	}
+	.fieldExpBoxLast {
+		margin-right: 0px;
+		border-radius: 0px;
+		border-top-left-radius: 65px;
+		border-bottom-left-radius: 65px;
+		height: 35px;
+	}
+	.fieldExpBoxLast h3 {
 		font-size: 10px;
 	}
 	.fieldExpList {
