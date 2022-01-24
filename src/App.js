@@ -10,7 +10,7 @@ function App() {
 		<div className='App'>
 			<Router>
 				<Routes>
-					<Route path='/DinahWorld-Portfolio' element={<Home />} />
+					<Route path='/' element={<Home />} />
 				</Routes>
 				<HomeFooter />
 			</Router>

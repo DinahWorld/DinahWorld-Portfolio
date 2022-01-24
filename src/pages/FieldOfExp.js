@@ -9,13 +9,18 @@ import {
 	SkillList2,
 	SkillList3,
 	SkillList4,
+	SkillList5,
 } from '../helpers/ExperienceList';
 import { ExperienceItem, LanguageItem } from '../components/ExperienceItem';
 
 function FieldOfExp() {
-	let randomNumber = Math.floor(Math.random() * PersonnalColor.length);
-	let randomColor = PersonnalColor[randomNumber];
-
+	let rColor = () => {
+		let r = Math.floor(Math.random() * PersonnalColor.length);
+		return PersonnalColor[r];
+	};
+	//we don't care if all the color are the same
+	let webColor = rColor();
+	let guiColor = rColor();
 	return (
 		<AnimatePresence>
 			<motion.div
@@ -31,21 +36,41 @@ function FieldOfExp() {
 				<div className='fieldExpResume'>
 					<div className='fieldExpText'>
 						<h1>
-							Field of <font color={randomColor}>Experience</font>
+							Field of <font color={rColor()}>Experience</font>
 						</h1>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing
-							elit. Atque, velit,
-							<br /> corrupti reprehenderit doloremque ducimus
-							iusto laudantium quisquam <br />
-							earum provident quidem dolores itaque debitis,
+							I learned a lot of programming languages and
+							technologies during my university years and gained a
+							lot of experience in many fields such as{' '}
+							<font color={webColor}>
+								<b>Web</b>
+							</font>{' '}
+							with <font color={webColor}>NodeJS</font>,{' '}
+							<font color={webColor}>ExpressJS</font> and{' '}
+							<font color={webColor}>Canva</font>,{' '}
+							<font color={guiColor}>
+								<b>GUI</b>
+							</font>{' '}
+							with <font color={guiColor}>GTK</font>,{' '}
+							<font color={guiColor}>SDL2</font> and{' '}
+							<font color={guiColor}>JavaFX</font>,{' '}
+							<font color={rColor()}>
+								<b>Network</b>
+							</font>{' '}
+							or{' '}
+							<font color={rColor()}>
+								<b>Software</b>
+							</font>
 							<br />
-							<br /> sapiente tenetur quaerat ullam id nemo
-							asperiores. Lorem ipsum dolor sit amet consectetur
-							adipisicing elit. Sunt maiores ullam cum odit culpa
-							laudantium. Voluptas nostrum optio eveniet corrupti
-							ducimus facilis deserunt voluptatibus, fugit tenetur
-							pariatur dolore tempore rerum.
+							<br />
+							I'm still learning new technology like{' '}
+							<font color={webColor}>ReactJS</font> framework with
+							which I made this PortFolio. avec laquel j'ai fait
+							ce PortFolio.
+							<br />
+							<br />
+							Voici les langages de programmation que j'ai acquis
+							:
 						</p>
 					</div>
 					<div className='fieldExpLanguageList'>
@@ -74,6 +99,11 @@ function FieldOfExp() {
 					</div>
 					<div className='fieldExpLine'>
 						{SkillList4.map((item, key) => {
+							return <ExperienceItem key={key} skills={item} />;
+						})}{' '}
+					</div>
+					<div className='fieldExpLine'>
+						{SkillList5.map((item, key) => {
 							return <ExperienceItem key={key} skills={item} />;
 						})}{' '}
 					</div>

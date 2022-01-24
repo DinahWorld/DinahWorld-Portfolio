@@ -11,8 +11,6 @@ import Slider from '@mui/material/Slider';
 import { styled } from '@mui/material/styles';
 import { ReactComponent as World } from '../assets/World.svg';
 import { ReactComponent as Meteor } from '../assets/Meteor.svg';
-import { CustomButtonAboutMe as CustomButton } from '../components/CustomButton';
-import FileUploadRoundedIcon from '@mui/icons-material/FileUploadRounded';
 import { PersonnalColor } from '../helpers/Color';
 
 const marks = [
@@ -77,9 +75,10 @@ const AboutMeSlider = styled(Slider)({
 });
 
 function AboutMe() {
-	let randomNumber = () => Math.floor(Math.random() * PersonnalColor.length);
-	let randomColor1 = PersonnalColor[randomNumber()];
-	let randomColor2 = PersonnalColor[randomNumber()];
+	let rColor = () => {
+		let r = Math.floor(Math.random() * PersonnalColor.length);
+		return PersonnalColor[r];
+	};
 
 	const controls = useAnimation();
 	const [openLinks, setOpenLinks] = useState(3);
@@ -188,29 +187,55 @@ function AboutMe() {
 					}}>
 					<div className='aboutMeTitle'>
 						<h1>
-							I'm <font color={randomColor1}>Dinath,</font> a{' '}
-							<font color={randomColor2}>CS Student</font>
+							I'm <font color={rColor()}>Dinath,</font> a{' '}
+							<font color={rColor()}>CS Student</font>
 						</h1>
 					</div>
 					<p>
-						Je m'apelle Dinath et je suis développeur et étudiant à
-						l'Université de Paris 8 en 3e année de Licence
-						Informatique
+						Hi, my name is{' '}
+						<font color={rColor()}>
+							<b>Dinath</b>
+						</font>{' '}
+						and I am a{' '}
+						<font color={rColor()}>
+							<b>Developper</b>
+						</font>{' '}
+						and a{' '}
+						<font color={rColor()}>
+							<b>Student</b>
+						</font>{' '}
+						at{' '}
+						<font color={rColor()}>
+							<b>Université Paris 8</b>
+						</font>{' '}
+						in the 3rd year of a computer science degree.
 						<br />
 						<br />
-						Ces trois année m'ont permis de découvrire la
-						programmation et de concevoir plusieurs programmes
-						telles que des Jeux Web, des Applications Bureautique ou
-						bien même une Application Mobile !
+						These three years allowed me to discover programming and
+						to design several programs such as{' '}
+						<font color={rColor()}>
+							<b>Web Games</b>
+						</font>
+						,{' '}
+						<font color={rColor()}>
+							<b>Software</b>
+						</font>{' '}
+						or a{' '}
+						<font color={rColor()}>
+							<b>Mobile Applications !</b>
+						</font>
+						<br />
+						<br />I was a{' '}
+						<font color={rColor()}>
+							<b>Tutor</b>
+						</font>{' '}
+						in computer science during the year 2021, it was a
+						pretty good experience.
 						<br />
 						<br />
-						J'étais Tuteur Etudiant en Informatique durant l'année
-						2021, c'étais une assez bonne expérience
-						<br />
-						<br />
-						En dehors de l'école et la programmation, je vais
-						souvent à Fitness Park pour bouger un peu ( le métier de
-						développeur n'est pas facile haha ).
+						Outside of school and programming, I often go to the
+						Fitness Park to move a little ( the developer job is not
+						easy haha ).
 					</p>
 				</motion.div>
 			</motion.div>

@@ -10,16 +10,19 @@ export const SkillList1 = [c, javaScript, python, java, rust, cSharp];
 export const SkillList2 = [
 	'Android Studio',
 	'Linux',
+	'NodeJS',
 	'Git',
 	'ReactJS',
 	'Windows',
+	'ExpressJS',
 	'JavaFX',
 ];
+export const SkillList3 = ['English', 'French', 'Tamil'];
 export const SkillList4 = [
 	'Communication',
-	'Présentations',
-	'Software',
+	'Learning',
+	'Learning',
 	'LeaderShip',
 ];
 
-export const SkillList3 = ['Anglais', 'Français', 'Tamil'];
+export const SkillList5 = ['Web', 'GUI', 'Software', 'Mobile'];

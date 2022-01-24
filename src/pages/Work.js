@@ -15,7 +15,7 @@ function Work() {
 						return (
 							<ProjectItem
 								key={key}
-								text={projectItem.text}
+								text={projectItem.textEN}
 								projectName={projectItem.projectName}
 								image={projectItem.image}
 								additional={projectItem.additional}
