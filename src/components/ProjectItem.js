@@ -16,7 +16,7 @@ function AdditionalItem({ add }) {
 	color['API Watson Additional Translator'] = '#96A9EE';
 	color['Java'] = '#EE9696';
 	color['JavaFX'] = '#D65757';
-	color['Android Studio'] = '#69C024';
+	color['Android Studio'] = '#D7EE96';
 	color['Python'] = '#96EE9F';
 
 	let selectColor = color[add];
