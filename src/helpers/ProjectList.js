@@ -20,7 +20,7 @@ export const ProjectList = [
 	{
 		image: iconFolio,
 		projectName: 'DinahWorld 🪐',
-		textEN: 'My PortFolio made with ReactJS,MUI and FramerMotion',
+		textEN: 'My PortFolio made with ReactJS,MUI and FramerMotion (No Template, No Tuto)',
 		textFR: 'Mon PortFolio réalisé ReactJS, MUI et FramerMotion',
 		additional: ['JavaScript', 'ReactJS', 'HTML', 'CSS'],
 		date: 'janv 2022',

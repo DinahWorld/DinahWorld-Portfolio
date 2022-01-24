@@ -196,7 +196,7 @@ function AboutMe() {
 						<font color={rColor()}>
 							<b>Dinath</b>
 						</font>{' '}
-						and I am a{' '}
+						I'm 20 and  I am a{' '}
 						<font color={rColor()}>
 							<b>Developper</b>
 						</font>{' '}
