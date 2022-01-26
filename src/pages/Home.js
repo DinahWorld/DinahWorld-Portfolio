@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Home.css';
 import { motion } from 'framer-motion';
 import Galaxy from '../components/CustomLogo';
+import HomeFooter from '../components/HomeFooter';
 import AboutMe from './AboutMe';
 import Work from './Work';
 import FieldOfExp from './FieldOfExp';
@@ -48,6 +49,7 @@ function Home() {
 					<Galaxy />
 				</motion.div>
 			</div>
+			<HomeFooter />
 			<AboutMe />
 			<FieldOfExp />
 			<Work />

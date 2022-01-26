@@ -1,0 +1,30 @@
+.footer {
+	display: flex;
+	z-index: 1;
+	bottom: 0;
+	width: 100%;
+	flex-direction: column;
+}
+.footerTop {
+	display: flex;
+	justify-content: center;
+	margin-left: 30px;
+}
+
+.footerBottom {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.footerMail {
+	margin-bottom: 28px;
+}
+
+@media screen and (max-width: 800px) {
+	.footerTop {
+		font-size: 15px;
+	}
+	.footer svg {
+		font-size: 20px;
+	}
+}

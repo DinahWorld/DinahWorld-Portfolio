@@ -9,12 +9,12 @@ import {
 	CustomButtonFooter2,
 	CustomButtonFooter3,
 } from './CustomButton';
-import '../styles/HomeFooter.css';
+import '../styles/Footer.css';
 
 function OpenMail() {
 	return (
 		<motion.div
-			className='homeFooterMail'
+			className='footerMail'
 			layout
 			initial={{ opacity: 0 }}
 			animate={{ opacity: 1 }}
@@ -24,13 +24,13 @@ function OpenMail() {
 	);
 }
 
-function HomeFooter() {
+function Footer() {
 	const [isOpen, setIsOpen] = useState(false);
 	const toggleOpen = () => setIsOpen(!isOpen);
 
 	return (
 		<motion.div
-			className='homeFooter'
+			className='footer'
 			initial='hidden'
 			whileInView='visible'
 			viewport={{ once: true }}
@@ -39,20 +39,23 @@ function HomeFooter() {
 				visible: { opacity: 1, translateX: 0 },
 				hidden: { opacity: 0, translateX: -50 },
 			}}>
-			<CustomButtonFooter1 href='https://github.com/DinahWorld'>
-				<GitHubIcon />
-			</CustomButtonFooter1>
-			<CustomButtonFooter2 href='https://www.linkedin.com/in/dinath-sh'>
-				<LinkedInIcon />
-			</CustomButtonFooter2>
-			<motion.div layout onClick={toggleOpen}>
-				<CustomButtonFooter3>
-					<MarkunreadRoundedIcon />
-				</CustomButtonFooter3>
-			</motion.div>
-			<AnimatePresence>{isOpen && <OpenMail />}</AnimatePresence>
+			<div className='footerTop'>Contact Me</div>
+			<div className='footerBottom'>
+				<CustomButtonFooter1 href='https://github.com/DinahWorld'>
+					<GitHubIcon />
+				</CustomButtonFooter1>
+				<CustomButtonFooter2 href='https://www.linkedin.com/in/dinath-sh'>
+					<LinkedInIcon />
+				</CustomButtonFooter2>
+				<motion.div layout onClick={toggleOpen}>
+					<CustomButtonFooter3>
+						<MarkunreadRoundedIcon />
+					</CustomButtonFooter3>
+				</motion.div>
+				<AnimatePresence>{isOpen && <OpenMail />}</AnimatePresence>
+			</div>
 		</motion.div>
 	);
 }
 
-export default HomeFooter;
+export default Footer;

@@ -69,8 +69,7 @@ function FieldOfExp() {
 							ce PortFolio.
 							<br />
 							<br />
-							Voici les langages de programmation que j'ai acquis
-							:
+							Here are the programming languages I have acquired :
 						</p>
 					</div>
 					<div className='fieldExpLanguageList'>

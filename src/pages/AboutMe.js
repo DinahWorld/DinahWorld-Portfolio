@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence, useAnimation } from 'framer-motion';
 import '../styles/AboutMe.css';
+import HomeFooter from '../components/HomeFooter';
 import faceLycee from '../assets/face_lycee.png';
 import faceBac1 from '../assets/face_bac_0.png';
 import faceBac2 from '../assets/face_bac_1.png';
@@ -196,7 +197,7 @@ function AboutMe() {
 						<font color={rColor()}>
 							<b>Dinath</b>
 						</font>{' '}
-						I'm 20 and  I am a{' '}
+						I'm 20 and I am a{' '}
 						<font color={rColor()}>
 							<b>Developper</b>
 						</font>{' '}
