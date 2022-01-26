@@ -65,8 +65,7 @@ function FieldOfExp() {
 							<br />
 							I'm still learning new technology like{' '}
 							<font color={webColor}>ReactJS</font> framework with
-							which I made this PortFolio. avec laquel j'ai fait
-							ce PortFolio.
+							which I made this PortFolio.
 							<br />
 							<br />
 							Here are the programming languages I have acquired :
