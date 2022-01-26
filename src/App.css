@@ -5,3 +5,24 @@ body {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 }
+
+/* Works on Firefox */
+* {
+	scrollbar-width: 6px;
+	scrollbar-color: #cc96ee #273658;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #273658;
+	border-radius: 90px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: #cc96ee;
+	border-radius: 90px;
+}
