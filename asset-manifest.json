@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e7e83df.css",
-    "main.js": "/static/js/main.9f0348ee.js",
+    "main.css": "/static/css/main.a49423c3.css",
+    "main.js": "/static/js/main.899fed77.js",
     "static/media/face_bac_3.png": "/static/media/face_bac_3.99e3ec40ba5a7e10584e.png",
     "static/media/face_bac_2.png": "/static/media/face_bac_2.5b37d8f3f7ed19dbea1e.png",
     "static/media/face_bac_1.png": "/static/media/face_bac_1.821e99fae58b34767620.png",
     "static/media/face_lycee.png": "/static/media/face_lycee.dae46b353178d57e0d70.png",
     "static/media/face_bac_0.png": "/static/media/face_bac_0.85970b9f153a8f80a5e8.png",
-    "static/media/iconFolio.svg": "/static/media/iconFolio.78a79ceee6fa325cd1656a165c0df4cd.svg",
+    "static/media/iconSolarSys.svg": "/static/media/iconSolarSys.78a79ceee6fa325cd1656a165c0df4cd.svg",
     "static/media/Rust.svg": "/static/media/Rust.741050b5eea2512cc400c1535cfccdd6.svg",
+    "static/media/iconFolio.svg": "/static/media/iconFolio.9fdd7c5b6b6cd9775dddcf11239809e3.svg",
     "static/media/icon2048.svg": "/static/media/icon2048.c4f1b399b670ae649dc539c3033f7436.svg",
     "static/media/iconUselessDG.svg": "/static/media/iconUselessDG.7131c86ba612724edac8f2093b63907b.svg",
     "static/media/iconFinger.svg": "/static/media/iconFinger.a3c5064f38b73b4ea09b509326c34696.svg",
@@ -26,11 +27,11 @@
     "static/media/iconTrad.svg": "/static/media/iconTrad.03f317675ffb1fc2ed28fc09ae81084b.svg",
     "static/media/Meteor.svg": "/static/media/Meteor.4008415d5d58efcecde63c640cd9d547.svg",
     "static/media/World.svg": "/static/media/World.7082daaca7d65e686a7c7ede5cfab16d.svg",
-    "main.0e7e83df.css.map": "/static/css/main.0e7e83df.css.map",
-    "main.9f0348ee.js.map": "/static/js/main.9f0348ee.js.map"
+    "main.a49423c3.css.map": "/static/css/main.a49423c3.css.map",
+    "main.899fed77.js.map": "/static/js/main.899fed77.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e7e83df.css",
-    "static/js/main.9f0348ee.js"
+    "static/css/main.a49423c3.css",
+    "static/js/main.899fed77.js"
   ]
 }
