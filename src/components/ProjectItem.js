@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { CustomButtonFooter1 } from './CustomButton';
 
 function AdditionalItem({ add }) {
 	const color = new Array(19);
@@ -14,6 +16,7 @@ function AdditionalItem({ add }) {
 	color['GTK-RS'] = '#EE96B0';
 	color['C'] = '#96A9EE';
 	color['API Watson Additional Translator'] = '#96A9EE';
+	color['GL4D'] = '#96A9EE';
 	color['Java'] = '#EE9696';
 	color['JavaFX'] = '#D65757';
 	color['Android Studio'] = '#D7EE96';
@@ -42,7 +45,15 @@ function AdditionalItem({ add }) {
 	);
 }
 
-function ProjectItem({ text, projectName, image, additional, date, index }) {
+function ProjectItem({
+	text,
+	projectName,
+	image,
+	additional,
+	github,
+	date,
+	index,
+}) {
 	const [showProject, setShowProject] = useState(false);
 	const [lastYPos, setLastYPos] = useState(0);
 
@@ -104,6 +115,11 @@ function ProjectItem({ text, projectName, image, additional, date, index }) {
 						return <AdditionalItem key={key} add={add} />;
 					})}
 				</div>
+			</div>
+			<div className='workGit'>
+				<CustomButtonFooter1 href={github}>
+					<GitHubIcon />
+				</CustomButtonFooter1>
 			</div>
 		</motion.div>
 	);

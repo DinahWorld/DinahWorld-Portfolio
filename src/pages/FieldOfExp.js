@@ -78,10 +78,12 @@ function FieldOfExp() {
 						})}
 					</div>
 					<div className='fieldExpCV'>
-						<CustomButton>
-							<FileUploadRoundedIcon />
-							CV
-						</CustomButton>
+						<a href='.../file/CV.pdf' download>
+							<CustomButton>
+								<FileUploadRoundedIcon />
+								CV
+							</CustomButton>
+						</a>
 					</div>
 				</div>
 				<div className='fieldExpList'>

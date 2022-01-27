@@ -21,6 +21,7 @@ function Work() {
 								additional={projectItem.additional}
 								date={projectItem.date}
 								index={index}
+								github={projectItem.github}
 							/>
 						);
 					})}
