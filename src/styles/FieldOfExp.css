@@ -5,10 +5,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: row;
+	flex-direction: column;
 	margin-bottom: 100px;
 }
 .fieldExpList {
+	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
 }
