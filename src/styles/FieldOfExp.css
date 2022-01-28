@@ -84,43 +84,14 @@
 		align-items: center;
 		margin-right: 20px;
 	}
-
-	.fieldExp {
-		flex-direction: column;
-	}
 	.fieldExpBox {
-		min-width: 0px;
-	}
-
-	.fieldExpBoxFirst {
 		min-width: 0px;
 	}
 	.fieldExpBox {
 		margin-right: 0px;
-		height: 35px;
-	}
-	.fieldExpBoxFirst {
-		margin-right: 0px;
-		border-radius: 0px;
-		border-top-right-radius: 65px;
-		border-bottom-right-radius: 65px;
 		height: 35px;
 	}
 	.fieldExpBox h3 {
-		font-size: 10px;
-	}
-	.fieldExpBoxFirst h3 {
-		font-size: 10px;
-	}
-	.fieldExpBoxLast {
-		min-width: 0px;
-		margin-right: 0px;
-		border-radius: 0px;
-		border-top-left-radius: 65px;
-		border-bottom-left-radius: 65px;
-		height: 35px;
-	}
-	.fieldExpBoxLast h3 {
 		font-size: 10px;
 	}
 	.fieldExpList {
@@ -139,5 +110,14 @@
 		height: 45px;
 		margin-right: 5px;
 		border-radius: 15px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.fieldExp {
+		flex-direction: column;
+	}
+	.fieldExpSkills {
+		width: 80%;
 	}
 }

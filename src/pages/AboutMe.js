@@ -233,10 +233,11 @@ function AboutMe() {
 						in computer science during the year 2021, it was a
 						pretty good experience.
 						<br />
-						<br />
-						Outside of school and programming, I often go to the
-						Fitness Park to move a little ( the developer job is not
-						easy haha ).
+						<br />I love design and doing creative things (like this
+						Portfolio) but I prefer building applications. Outside
+						of school and programming, I often go to the Fitness
+						Park to move a little ( the developer job is not easy
+						haha ).
 					</p>
 				</motion.div>
 			</motion.div>
