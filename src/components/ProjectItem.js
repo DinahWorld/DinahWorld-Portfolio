@@ -74,7 +74,7 @@ function ProjectItem({
 
 	return (
 		<motion.div
-			className='workPresentation'
+			className='workList'
 			initial='hidden'
 			whileInView='visible'
 			viewport={{ once: true }}

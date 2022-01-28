@@ -7,7 +7,7 @@
 .workProject {
 	z-index: 1;
 }
-.workPresentation {
+.workList {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -89,6 +89,7 @@
 	right: 0px;
 }
 .workGit {
+	display: flex;
 	margin-top: 40px;
 }
 .workGit svg {
@@ -130,5 +131,9 @@
 	}
 	.workProjectName h2 {
 		font-size: 10px;
+	}
+
+	.workGit {
+		display: none;
 	}
 }
