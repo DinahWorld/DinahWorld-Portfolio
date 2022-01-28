@@ -22,7 +22,7 @@ export const ProjectList = [
 	{
 		image: iconMetro,
 		projectName: 'Public Transit System 🚅',
-		textEN: 'Manage a public transportation network, via a graph (Stranded System and Compact Matrix) and solve the shortest path case with the Dijkstra algorith",		',
+		textEN: 'Manage a public transportation network, via a graph and solve the shortest path case with the Dijkstra algorith",		',
 		textFR: "Gérer un réseau de transports en commun, via un graphe (Système à brins et Matrice Compacte) et résoudre le cas du plus court chemin avec l'algorithme de Dijkstra",
 		github: 'https://github.com/DinahWorld/Metro-de-Mexico-p8',
 		additional: ['C'],

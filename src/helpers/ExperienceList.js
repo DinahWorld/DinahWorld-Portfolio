@@ -25,4 +25,4 @@ export const SkillList4 = [
 	'LeaderShip',
 ];
 
-export const SkillList5 = ['Web', 'GUI', 'Software', 'Mobile'];
+export const SkillList5 = ['Web', 'GUI', 'Mobile', 'Software'];

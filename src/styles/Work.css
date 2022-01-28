@@ -62,6 +62,8 @@
 }
 .workAdditional {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: left;
 }
 .workAdditionalItem {
@@ -100,7 +102,7 @@
 	.workDescription {
 		width: 50vw;
 	}
-	.workPresentation {
+	.workList {
 		margin-bottom: 10px;
 	}
 	.workAdditionalItem {

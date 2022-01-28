@@ -5,16 +5,23 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: row;
 	margin-bottom: 100px;
+}
+.fieldExpSkills {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	justify-content: center;
+	align-items: center;
 }
 .fieldExpList {
 	margin-top: 20px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 .fieldExpResume {
-	width: 50%;
 	display: flex;
 	flex-direction: column;
 	margin-right: 20px;
@@ -23,15 +30,9 @@
 	font-weight: 500;
 	margin-right: 20px;
 	margin-left: 20px;
+	width: 50%;
 }
-.fieldExpLine {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-	margin-bottom: 23px;
-	margin-left: 10px;
-}
+
 .fieldExpText {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -43,6 +44,7 @@
 	justify-content: center;
 	border-radius: 65px;
 	margin-right: 10px;
+	margin-bottom: 10px;
 	min-width: 100px;
 	height: 3vw;
 }
@@ -55,44 +57,7 @@
 	margin-left: 10px;
 	margin-right: 10px;
 }
-.fieldExpBoxFirst {
-	flex-grow: 1;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 65px;
-	margin-right: 10px;
-	min-width: 100px;
-	height: 3vw;
-}
-.fieldExpBoxFirst h3 {
-	text-align: center;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.fieldExpBoxLast {
-	flex-grow: 1;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 65px;
-	margin-right: 10px;
-	min-width: 100px;
-	height: 3vw;
-}
-.fieldExpBoxLast h3 {
-	text-align: center;
-	font-weight: 600;
-	font-size: 15px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
+
 .fieldExpLanguageList {
 	display: flex;
 	align-items: center;
@@ -103,8 +68,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 100px;
-	height: 100px;
+	width: 5vw;
+	height: 5vw;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	border-radius: 20px;
@@ -123,24 +88,16 @@
 	.fieldExp {
 		flex-direction: column;
 	}
-	.fieldExpList {
-		margin-top: 20px;
-	}
 	.fieldExpBox {
 		min-width: 0px;
 	}
-	.fieldExpBoxLast {
-		min-width: 0px;
-	}
+
 	.fieldExpBoxFirst {
 		min-width: 0px;
 	}
 	.fieldExpBox {
 		margin-right: 0px;
 		height: 35px;
-	}
-	.fieldExpBox h3 {
-		font-size: 10px;
 	}
 	.fieldExpBoxFirst {
 		margin-right: 0px;
@@ -149,10 +106,14 @@
 		border-bottom-right-radius: 65px;
 		height: 35px;
 	}
+	.fieldExpBox h3 {
+		font-size: 10px;
+	}
 	.fieldExpBoxFirst h3 {
 		font-size: 10px;
 	}
 	.fieldExpBoxLast {
+		min-width: 0px;
 		margin-right: 0px;
 		border-radius: 0px;
 		border-top-left-radius: 65px;
@@ -163,6 +124,7 @@
 		font-size: 10px;
 	}
 	.fieldExpList {
+		margin-top: 20px;
 		width: 100%;
 	}
 	.fieldExpLine {

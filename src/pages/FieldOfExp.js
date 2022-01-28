@@ -78,7 +78,7 @@ function FieldOfExp() {
 						})}
 					</div>
 					<div className='fieldExpCV'>
-						<a href='.../file/CV.pdf' download>
+						<a href='/file/CV.pdf' download>
 							<CustomButton>
 								<FileUploadRoundedIcon />
 								CV
@@ -86,26 +86,21 @@ function FieldOfExp() {
 						</a>
 					</div>
 				</div>
-				<div className='fieldExpList'>
-					<div className='fieldExpLine'>
+				<div className='fieldExpSkills'>
+					<h1>My Skills</h1>
+					<div className='fieldExpList'>
 						{SkillList2.map((item, key) => {
 							return <ExperienceItem key={key} skills={item} />;
 						})}
-					</div>
-					<div className='fieldExpLine'>
 						{SkillList3.map((item, key) => {
 							return <ExperienceItem key={key} skills={item} />;
-						})}{' '}
-					</div>
-					<div className='fieldExpLine'>
+						})}
 						{SkillList4.map((item, key) => {
 							return <ExperienceItem key={key} skills={item} />;
-						})}{' '}
-					</div>
-					<div className='fieldExpLine'>
+						})}
 						{SkillList5.map((item, key) => {
 							return <ExperienceItem key={key} skills={item} />;
-						})}{' '}
+						})}
 					</div>
 				</div>
 			</motion.div>
