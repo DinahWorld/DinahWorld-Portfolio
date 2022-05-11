@@ -13,7 +13,7 @@ export const SkillList2 = [
 	'NodeJS',
 	'Git',
 	'ReactJS',
-	'Windows',
+	'Django',
 	'ExpressJS',
 	'JavaFX',
 ];

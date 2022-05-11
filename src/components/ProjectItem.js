@@ -21,7 +21,10 @@ function AdditionalItem({ add }) {
 	color['JavaFX'] = '#D65757';
 	color['Android Studio'] = '#D7EE96';
 	color['Python'] = '#96EE9F';
-
+	color['Django'] = '#96EE1F';
+	color['Python'] = '#96EE9F';
+	color['BeautifulSoup'] = '#FF618B';
+	
 	let selectColor = color[add];
 	return (
 		<motion.div

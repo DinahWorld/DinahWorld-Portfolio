@@ -8,8 +8,29 @@ import iconTrad from '../assets/projectIcon/iconTrad.svg';
 import iconUselessDG from '../assets/projectIcon/iconUselessDG.svg';
 import iconVideo from '../assets/projectIcon/iconVideo.svg';
 import iconFight from '../assets/projectIcon/iconFight.svg';
+import iconSpider from '../assets/projectIcon/iconSpider.svg';
+import iconSpaceShip from '../assets/projectIcon/iconSpaceShip.svg';
 
 export const ProjectList = [
+	{
+		image: iconSpaceShip,
+		projectName: 'DinahWorld 3D	🚀',
+		textEN: 'Modeling an universe with the GL4D library',
+		textFR: 'Modélisation d\'un univers avec la bibliothèque GL4D',
+		github: 'https://github.com/DinahWorld/DinahWorld-3D',
+		additional: ['C','GL4D'],
+		date: 'may 2022',
+
+	},
+	{
+		image: iconSpider,
+		projectName: 'DinaPriceScraping 🕷️',
+		textEN: 'Scraping the price of a product from a website', 
+		textFR: 'Le projet permet de scraper les sites marchands et d\'y récupérer le prix des articles, afin d\'obtenir un comparateur de prix', 
+		github: 'https://github.com/DinahWorld/DinaPriceScraping-p8',
+		additional: ['Python','Django','BeautifulSoup'],
+		date: 'avr 2022',
+	},
 	{
 		image: iconFolio,
 		projectName: 'DinahWorld 🪐',
