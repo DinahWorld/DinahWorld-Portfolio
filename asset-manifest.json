@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b304722b.css",
-    "main.js": "/static/js/main.066dfee0.js",
+    "main.js": "/static/js/main.fb8e65e1.js",
     "static/media/face_bac_3.png": "/static/media/face_bac_3.99e3ec40ba5a7e10584e.png",
     "static/media/face_bac_2.png": "/static/media/face_bac_2.5b37d8f3f7ed19dbea1e.png",
     "static/media/face_bac_1.png": "/static/media/face_bac_1.821e99fae58b34767620.png",
@@ -11,7 +11,9 @@
     "static/media/Rust.svg": "/static/media/Rust.741050b5eea2512cc400c1535cfccdd6.svg",
     "static/media/iconFolio.svg": "/static/media/iconFolio.9fdd7c5b6b6cd9775dddcf11239809e3.svg",
     "static/media/icon2048.svg": "/static/media/icon2048.c4f1b399b670ae649dc539c3033f7436.svg",
+    "static/media/iconSpaceShip.svg": "/static/media/iconSpaceShip.7994d185c0e5a1da20b2fb4d0cc41722.svg",
     "static/media/iconUselessDG.svg": "/static/media/iconUselessDG.7131c86ba612724edac8f2093b63907b.svg",
+    "static/media/iconSpider.svg": "/static/media/iconSpider.b97961b0ed18d8677e3e76d271fab278.svg",
     "static/media/iconFinger.svg": "/static/media/iconFinger.a3c5064f38b73b4ea09b509326c34696.svg",
     "static/media/iconFight.svg": "/static/media/iconFight.de88cd7fc63cfaed899c0f3aaf1ece11.svg",
     "static/media/iconVideo.svg": "/static/media/iconVideo.3b83321fecb9d6f0790495d8e253099e.svg",
@@ -20,18 +22,18 @@
     "static/media/Python.svg": "/static/media/Python.6663a40e8a24f2df3b9f8b48aa683dec.svg",
     "static/media/WorldRayon.svg": "/static/media/WorldRayon.7476322e8595b2310a2cf93783d073e2.svg",
     "static/media/iconCadenas.svg": "/static/media/iconCadenas.d9ebda574a43c69fde5daa2121a4d0a6.svg",
+    "index.html": "/index.html",
     "static/media/JavaScript.svg": "/static/media/JavaScript.8662d7c24214fda0e250e3d9b5fe7093.svg",
     "static/media/CSharp.svg": "/static/media/CSharp.0da35c5ba41c33579bc4ee948056fcbe.svg",
-    "index.html": "/index.html",
     "static/media/C.svg": "/static/media/C.0c8305a461a3e12f6dc12056b1114342.svg",
     "static/media/iconTrad.svg": "/static/media/iconTrad.03f317675ffb1fc2ed28fc09ae81084b.svg",
     "static/media/Meteor.svg": "/static/media/Meteor.4008415d5d58efcecde63c640cd9d547.svg",
     "static/media/World.svg": "/static/media/World.7082daaca7d65e686a7c7ede5cfab16d.svg",
     "main.b304722b.css.map": "/static/css/main.b304722b.css.map",
-    "main.066dfee0.js.map": "/static/js/main.066dfee0.js.map"
+    "main.fb8e65e1.js.map": "/static/js/main.fb8e65e1.js.map"
   },
   "entrypoints": [
     "static/css/main.b304722b.css",
-    "static/js/main.066dfee0.js"
+    "static/js/main.fb8e65e1.js"
   ]
 }
