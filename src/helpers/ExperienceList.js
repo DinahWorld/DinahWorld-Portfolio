@@ -11,7 +11,7 @@ export const SkillList2 = [
 	'Android Studio',
 	'Linux',
 	'NodeJS',
-	'Git',
+	'MySQl',
 	'ReactJS',
 	'Django',
 	'ExpressJS',
